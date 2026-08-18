@@ -102,14 +102,14 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><img src="assets/images/icon-implante.webp" alt=""></div>
-            <h4 class="title">Implantes</h4>
-            <p class="description">Pieza artificial de titanio para sustituir una raíz dentaria perdida.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon"><img src="assets/images/icon-ortodoncia.webp" alt=""></div>
             <h4 class="title">Ortodoncia</h4>
             <p class="description">Tratamos malposiciones dentarias para lograr una oclusión estética y funcional.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon"><img src="assets/images/icon-implante.webp" alt=""></div>
+            <h4 class="title">Implantes</h4>
+            <p class="description">Pieza artificial de titanio para sustituir una raíz dentaria perdida.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon"><img src="assets/images/icon-estetica.webp" alt=""></div>
