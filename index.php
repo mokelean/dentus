@@ -113,6 +113,15 @@
             <div><i class="bi bi-heart"></i><strong>Removibles y cómodos</strong><span>Comé tranquilo y mantené tu higiene oral.</span></div>
           </div>
         </div>
+        <div class="interceptive-care">
+          <div class="interceptive-intro"><h3>Ortopedia interceptiva</h3><p>Aprovechamos el crecimiento para guiar el desarrollo de los maxilares y la mordida en el momento adecuado.</p><strong>Siempre, antes es mejor.</strong></div>
+          <ol class="treatment-steps">
+            <li><span>01</span><div><h4>Consulta diagnóstica</h4><p>Evaluamos el crecimiento, la mordida y solicitamos los estudios necesarios para planificar el tratamiento.</p></div></li>
+            <li><span>02</span><div><h4>Escaneado digital</h4><p>Realizamos un escaneado cómodo y preciso de la boca, sin impresiones tradicionales.</p></div></li>
+            <li><span>03</span><div><h4>Diseño personalizado</h4><p>Con esa información diseñamos un aparato para cada paciente y lo enviamos al laboratorio.</p></div></li>
+            <li><span>04</span><div><h4>Seguimiento cercano</h4><p>Al comenzar el tratamiento, acompañamos su evolución con controles periódicos.</p></div></li>
+          </ol>
+        </div>
       </div>
     </section>
     <section class="care-story">

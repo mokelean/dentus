@@ -2120,6 +2120,15 @@ section {
 .dentus-refresh .aligner-benefits i { margin-bottom: 11px; color: #a5e0d9; font-size: 1.3rem; }
 .dentus-refresh .aligner-benefits strong { color: #fff; }
 .dentus-refresh .aligner-benefits span { margin-top: 5px; color: #bdd7d4; font-size: .92rem; }
+.dentus-refresh .interceptive-care { display: grid; grid-template-columns: .8fr 1.2fr; gap: 62px; margin-top: 56px; padding-top: 56px; border-top: 1px solid #cfe2de; }
+.dentus-refresh .interceptive-intro h3 { margin: 0 0 13px; color: #15494a; font-size: 2.1rem; letter-spacing: -.04em; }
+.dentus-refresh .interceptive-intro p { color: #587574; line-height: 1.65; }
+.dentus-refresh .interceptive-intro strong { color: #1b7778; }
+.dentus-refresh .treatment-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 38px; padding: 0; margin: 0; list-style: none; counter-reset: none; }
+.dentus-refresh .treatment-steps li { display: flex; gap: 16px; }
+.dentus-refresh .treatment-steps span { color: #55bdbd; font-size: .8rem; font-weight: 800; padding-top: 4px; }
+.dentus-refresh .treatment-steps h4 { margin: 0 0 7px; color: #204f50; font-size: 1.05rem; }
+.dentus-refresh .treatment-steps p { margin: 0; color: #647e7e; font-size: .94rem; line-height: 1.55; }
 .dentus-refresh .care-story { padding: 120px 0; background: #fff; }
 .dentus-refresh .care-image { position: relative; }
 .dentus-refresh .care-image::before { content: ''; position: absolute; width: 72%; height: 58%; left: -25px; bottom: -25px; border: 1px solid #9bcfca; z-index: 0; }
@@ -2175,6 +2184,7 @@ section {
   .dentus-refresh .booking-band .container { align-items: flex-start; flex-direction: column; }
   .dentus-refresh .aligner-feature { grid-template-columns: 1fr; }
   .dentus-refresh .aligner-image { min-height: 360px; }
+  .dentus-refresh .interceptive-care { grid-template-columns: 1fr; gap: 35px; }
   .dentus-refresh .gallery-heading { align-items: start; flex-direction: column; gap: 14px; }
   .dentus-refresh .map-card { left: 25px; top: 25px; }
   .dentus-refresh .contact-grid { grid-template-columns: 1fr; }
@@ -2190,6 +2200,7 @@ section {
   .dentus-refresh .aligner-copy { padding: 32px 26px; }
   .dentus-refresh .aligner-benefits { grid-template-columns: 1fr; }
   .dentus-refresh .aligner-benefits div { border-right: 0; border-bottom: 1px solid #397174; }
+  .dentus-refresh .treatment-steps { grid-template-columns: 1fr; }
   .dentus-refresh .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: 250px 180px; }
   .dentus-refresh .gallery-grid .gallery-large { grid-column: 1 / -1; }
   .dentus-refresh .map-shell, .dentus-refresh .map-shell iframe { min-height: 500px; height: 500px; }
