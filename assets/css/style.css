@@ -2179,7 +2179,7 @@ section {
 .dentus-refresh .contact-card > b { position: absolute; bottom: 30px; color: #1e7f80; font-size: .92rem; }
 .dentus-refresh .hours-status { display: inline-flex; align-items: center; gap: 7px; margin-top: 12px; padding: 7px 10px; border-radius: 20px; font-size: .8rem; font-weight: 700; }
 .dentus-refresh .hours-status::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
-.dentus-refresh .hours-status.is-open { color: #18785a; background: #d8f2e8; }
+.dentus-refresh .hours-status.is-open { color: #1e7f80; background: #dff1ee; }
 .dentus-refresh .hours-status.is-closed { color: #9a5b40; background: #fae6dc; }
 .dentus-refresh .hours-card { background: #e7f4f1; }
 .dentus-refresh .contact-action { background: #164c4d; border-color: #164c4d; }
