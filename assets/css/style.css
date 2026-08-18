@@ -2179,6 +2179,27 @@ section {
 .dentus-refresh.dentusito-page .game-panel { background: #fff8d7; }
 .dentus-refresh.dentusito-page .game-panel button { border-radius: 10px; background: #dd6757; box-shadow: 0 3px 0 #a6443b; }
 .dentus-refresh.dentusito-page .game-panel button:hover { background: #c95649; }
+.dentus-refresh .quiz-shell { display: grid; grid-template-columns: 270px minmax(0, 1fr); max-width: 1000px; margin: 0 auto; overflow: hidden; border: 7px solid #f3c448; border-radius: 26px; background: #fff8d7; box-shadow: 0 13px 0 #d8a638, 0 23px 40px rgba(154, 104, 32, .2); }
+.dentus-refresh .dentusito-host { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 24px; background: #77d8ca; text-align: center; }
+.dentus-refresh .dentusito-host img { width: 155px; height: 155px; filter: drop-shadow(0 7px 0 rgba(93, 72, 38, .15)); }
+.dentus-refresh .dentusito-host p { margin: 16px 0 5px; color: #704521; font-size: 1.45rem; font-weight: 800; }
+.dentus-refresh .dentusito-host span { color: #315f5b; font-weight: 700; }
+.dentus-refresh .quiz-card { padding: 42px 45px; background: #fffdf3; }
+.dentus-refresh .quiz-progress { display: flex; justify-content: space-between; gap: 15px; color: #6d7f76; font-size: .82rem; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; }
+.dentus-refresh .quiz-progress b { color: #d85c52; }
+.dentus-refresh .quiz-bar { height: 9px; margin: 13px 0 34px; overflow: hidden; border-radius: 20px; background: #f5e3a1; }
+.dentus-refresh .quiz-bar span { display: block; width: 0; height: 100%; background: #e87461; transition: width .3s ease; }
+.dentus-refresh .quiz-card h2 { margin: 0 0 25px; color: #174e4f; font-size: clamp(1.6rem, 3vw, 2.3rem); line-height: 1.12; letter-spacing: -.04em; }
+.dentus-refresh .quiz-options { display: grid; gap: 11px; }
+.dentus-refresh .quiz-options button { width: 100%; border: 2px solid #d7e6df; border-radius: 12px; padding: 14px 16px; background: #fff; color: #315e5d; font: inherit; font-weight: 700; text-align: left; cursor: pointer; transition: transform .18s ease, border-color .18s ease; }
+.dentus-refresh .quiz-options button:not(:disabled):hover { border-color: #e87461; transform: translateX(4px); }
+.dentus-refresh .quiz-options button.is-correct { border-color: #48bd7b; background: #dff5e7; color: #17683e; }
+.dentus-refresh .quiz-options button.is-wrong { border-color: #e66c61; background: #fde2dc; color: #a03f39; }
+.dentus-refresh .quiz-feedback { min-height: 48px; margin: 19px 0 10px; color: #607772; line-height: 1.5; }
+.dentus-refresh .quiz-feedback.is-correct { color: #187147; font-weight: 700; }
+.dentus-refresh .quiz-feedback.is-wrong { color: #a74740; font-weight: 700; }
+.dentus-refresh .quiz-card > button { float: right; border: 0; border-radius: 10px; padding: 12px 17px; background: #d85c52; color: #fff; font: inherit; font-size: .92rem; font-weight: 800; cursor: pointer; box-shadow: 0 3px 0 #a9443a; }
+.dentus-refresh .quiz-card > button:disabled { opacity: .45; cursor: default; box-shadow: none; }
 .dentus-refresh.dentusito-page #caries-game { min-height: 0; height: auto; aspect-ratio: 680 / 360; }
 .dentus-refresh .game-heading { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 35px; }
 .dentus-refresh .game-heading h1, .dentus-refresh .game-heading h2 { margin: 0 0 12px; color: #15494a; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1; letter-spacing: -.05em; }
@@ -2252,6 +2273,10 @@ section {
   .dentus-refresh .gallery-heading { align-items: start; flex-direction: column; gap: 14px; }
   .dentus-refresh .game-shell { grid-template-columns: 1fr; }
   .dentus-refresh.dentusito-page .game-shell { grid-template-columns: 1fr; max-width: 680px; }
+  .dentus-refresh .quiz-shell { grid-template-columns: 1fr; max-width: 680px; }
+  .dentus-refresh .dentusito-host { flex-direction: row; gap: 20px; padding: 18px 25px; text-align: left; }
+  .dentus-refresh .dentusito-host img { width: 88px; height: 88px; }
+  .dentus-refresh .dentusito-host p { margin: 0 0 4px; }
   .dentus-refresh .map-card { left: 25px; top: 25px; }
   .dentus-refresh .dentus-map-pin { left: 72%; }
   .dentus-refresh .contact-grid { grid-template-columns: 1fr; }
@@ -2302,4 +2327,13 @@ section {
   .dentus-refresh.dentusito-page .game-panel p { max-width: 250px; margin: 0 auto; }
   .dentus-refresh.dentusito-page .game-controls { margin-top: 15px; }
   .dentus-refresh.dentusito-page .game-panel button#game-restart { margin-top: 16px; width: 100%; padding: 13px; }
+  .dentus-refresh .quiz-shell { border-width: 4px; border-radius: 18px; }
+  .dentus-refresh .dentusito-host { padding: 14px 18px; }
+  .dentus-refresh .dentusito-host img { width: 66px; height: 66px; }
+  .dentus-refresh .dentusito-host p { font-size: 1.15rem; }
+  .dentus-refresh .dentusito-host span { font-size: .9rem; }
+  .dentus-refresh .quiz-card { padding: 26px 18px 30px; }
+  .dentus-refresh .quiz-progress { font-size: .72rem; }
+  .dentus-refresh .quiz-bar { margin-bottom: 25px; }
+  .dentus-refresh .quiz-card > button { float: none; width: 100%; margin-top: 5px; }
 }

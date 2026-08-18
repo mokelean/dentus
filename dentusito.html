@@ -16,14 +16,14 @@
     <section class="kids-game" id="juego">
       <div class="container">
         <a class="back-home" href="index.php"><i class="bi bi-arrow-left"></i> Volver a Dentus</a>
-        <div class="game-heading"><div><h1>Dentusito.</h1><p>Un juego rápido para chicos: mové a Dentusito y juntá todas las muelas.</p></div><span>Para jugar un ratito</span></div>
-        <div class="game-shell">
-          <canvas id="caries-game" width="680" height="360" tabindex="0" aria-label="Juego Dentusito"></canvas>
-          <div class="game-panel"><div class="score-label">Muelas juntadas</div><strong id="game-score">0</strong><p id="game-message">Usá las flechas o WASD para moverte.</p><div class="game-controls" aria-label="Controles del juego"><button type="button" data-move="ArrowUp"><i class="bi bi-arrow-up"></i></button><button type="button" data-move="ArrowLeft"><i class="bi bi-arrow-left"></i></button><button type="button" data-move="ArrowDown"><i class="bi bi-arrow-down"></i></button><button type="button" data-move="ArrowRight"><i class="bi bi-arrow-right"></i></button></div><button id="game-restart" type="button">Jugar de nuevo <i class="bi bi-arrow-clockwise"></i></button></div>
+        <div class="game-heading"><div><h1>Dentusito.</h1><p>Un desafío rápido con Dentusito para descubrir cuánto sabés sobre tu sonrisa.</p></div><span>Quiz de sonrisas</span></div>
+        <div class="quiz-shell">
+          <aside class="dentusito-host"><img src="assets/images/dentusito-castor.svg" alt="Dentusito, el castor"><p>¡Hola! Soy Dentusito.</p><span>¿Jugamos al quiz?</span></aside>
+          <section class="quiz-card" aria-live="polite"><div class="quiz-progress"><span id="quiz-step">Pregunta 1 de 6</span><b id="quiz-score">0 puntos</b></div><div class="quiz-bar"><span id="quiz-bar-fill"></span></div><h2 id="quiz-question">¿Qué trata la Ortodoncia?</h2><div class="quiz-options" id="quiz-options"></div><p class="quiz-feedback" id="quiz-feedback"></p><button type="button" id="quiz-next" disabled>Siguiente <i class="bi bi-arrow-right"></i></button></section>
         </div>
       </div>
     </section>
   </main>
-  <script src="assets/js/caries-game.js?v=20260818-01"></script>
+  <script src="assets/js/dentusito-quiz.js?v=20260818-01"></script>
 </body>
 </html>
