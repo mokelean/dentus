@@ -139,7 +139,6 @@
         <div class="row align-items-center g-5">
           <div class="col-lg-5"><div class="care-image"><img src="assets/images/foto 2 dentus consultorio en villa urquiza bioseguridad dentista.png" alt="Espacio de atención Dentus"></div></div>
           <div class="col-lg-6 offset-lg-1 care-copy">
-            <span class="eyebrow">Una consulta diferente</span>
             <h2>Escuchar primero. Indicar después.</h2>
             <p>Cada tratamiento empieza con una conversación clara. Te explicamos las alternativas, planificamos juntos y acompañamos el proceso para que tomes decisiones con tranquilidad.</p>
             <ul><li><i class="bi bi-check2"></i> Planes de tratamiento personalizados</li><li><i class="bi bi-check2"></i> Tecnología y bioseguridad en cada consulta</li><li><i class="bi bi-check2"></i> Atención cálida en un entorno cómodo</li></ul>
