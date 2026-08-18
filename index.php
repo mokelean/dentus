@@ -48,6 +48,7 @@
           <li><a class="nav-link scrollto" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#hero">Nosotros</a></li>
           <li><a class="nav-link scrollto" href="#especialidades">Ortodoncia</a></li>
+          <li><a class="nav-link" href="dentusito.html">Dentusito</a></li>
           <li><a class="nav-link scrollto" href="#footer">Contacto</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -154,15 +155,6 @@
         </div>
       </div>
     </section>
-    <section class="kids-game" id="juego">
-      <div class="container">
-        <div class="game-heading"><div><h2>Dentusito.</h2><p>Un juego rápido para chicos: mové a Dentusito y juntá todas las muelas antes de que termine el tiempo.</p></div><span>Para jugar un ratito</span></div>
-        <div class="game-shell">
-          <canvas id="caries-game" width="680" height="360" tabindex="0" aria-label="Juego de la caries traviesa"></canvas>
-          <div class="game-panel"><div class="score-label">Muelas juntadas</div><strong id="game-score">0</strong><p id="game-message">Usá las flechas o WASD para moverte.</p><div class="game-controls" aria-label="Controles del juego"><button type="button" data-move="ArrowUp"><i class="bi bi-arrow-up"></i></button><button type="button" data-move="ArrowLeft"><i class="bi bi-arrow-left"></i></button><button type="button" data-move="ArrowDown"><i class="bi bi-arrow-down"></i></button><button type="button" data-move="ArrowRight"><i class="bi bi-arrow-right"></i></button></div><button id="game-restart" type="button">Jugar de nuevo <i class="bi bi-arrow-clockwise"></i></button></div>
-        </div>
-      </div>
-    </section>
     <section class="booking-band">
       <div class="container"><div><span class="eyebrow">¿Listo para empezar?</span><h2>Tu próxima sonrisa empieza con una consulta.</h2></div><a href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles." class="booking-button">Escribir por WhatsApp <i class="bi bi-arrow-up-right"></i></a></div>
     </section>
@@ -217,7 +209,6 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/caries-game.js"></script>
   <script>
     (() => {
       const status = document.querySelector('.hours-status');

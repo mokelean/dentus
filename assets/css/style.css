@@ -2157,8 +2157,12 @@ section {
 .dentus-refresh .gallery-grid figure:hover img { transform: scale(1.045); }
 .dentus-refresh .gallery-grid .gallery-large img { object-position: center 65%; }
 .dentus-refresh .kids-game { padding: 105px 0; background: #fff; }
+.dentus-refresh.dentusito-page { min-height: 100vh; background: #e8f3f1; }
+.dentus-refresh.dentusito-page .kids-game { min-height: 100vh; display: flex; align-items: center; background: #e8f3f1; }
+.dentus-refresh .back-home { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 42px; color: #1d6869; font-weight: 700; text-decoration: none; }
+.dentus-refresh .back-home:hover { color: #113f40; }
 .dentus-refresh .game-heading { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 35px; }
-.dentus-refresh .game-heading h2 { margin: 0 0 12px; color: #15494a; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1; letter-spacing: -.05em; }
+.dentus-refresh .game-heading h1, .dentus-refresh .game-heading h2 { margin: 0 0 12px; color: #15494a; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1; letter-spacing: -.05em; }
 .dentus-refresh .game-heading p { max-width: 580px; margin: 0; color: #587574; line-height: 1.6; }
 .dentus-refresh .game-heading > span { color: #c84851; font-size: .9rem; font-weight: 800; }
 .dentus-refresh .game-shell { display: grid; grid-template-columns: minmax(0, 1fr) 235px; overflow: hidden; border-radius: 16px; box-shadow: 0 15px 34px rgba(14, 61, 62, .14); }

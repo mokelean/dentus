@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#52BDBE">
+  <title>Dentusito · Juego de Dentus</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body class="dentus-refresh dentusito-page">
+  <main>
+    <section class="kids-game" id="juego">
+      <div class="container">
+        <a class="back-home" href="index.php"><i class="bi bi-arrow-left"></i> Volver a Dentus</a>
+        <div class="game-heading"><div><h1>Dentusito.</h1><p>Un juego rápido para chicos: mové a Dentusito y juntá todas las muelas.</p></div><span>Para jugar un ratito</span></div>
+        <div class="game-shell">
+          <canvas id="caries-game" width="680" height="360" tabindex="0" aria-label="Juego Dentusito"></canvas>
+          <div class="game-panel"><div class="score-label">Muelas juntadas</div><strong id="game-score">0</strong><p id="game-message">Usá las flechas o WASD para moverte.</p><div class="game-controls" aria-label="Controles del juego"><button type="button" data-move="ArrowUp"><i class="bi bi-arrow-up"></i></button><button type="button" data-move="ArrowLeft"><i class="bi bi-arrow-left"></i></button><button type="button" data-move="ArrowDown"><i class="bi bi-arrow-down"></i></button><button type="button" data-move="ArrowRight"><i class="bi bi-arrow-right"></i></button></div><button id="game-restart" type="button">Jugar de nuevo <i class="bi bi-arrow-clockwise"></i></button></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="assets/js/caries-game.js"></script>
+</body>
+</html>
