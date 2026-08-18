@@ -2163,10 +2163,16 @@ section {
 .dentus-refresh .gallery-grid figure:hover img { transform: scale(1.045); }
 .dentus-refresh .gallery-grid .gallery-large img { object-position: center 65%; }
 .dentus-refresh .kids-game { padding: 105px 0; background: #fff; }
-.dentus-refresh.dentusito-page { min-height: 100vh; background: #e8f3f1; }
-.dentus-refresh.dentusito-page .kids-game { min-height: 100vh; display: flex; align-items: center; background: #e8f3f1; }
-.dentus-refresh .back-home { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 42px; color: #1d6869; font-weight: 700; text-decoration: none; }
-.dentus-refresh .back-home:hover { color: #113f40; }
+.dentus-refresh.dentusito-page { min-height: 100vh; background: #113f40; }
+.dentus-refresh.dentusito-page .kids-game { min-height: 100dvh; padding: 42px 0 60px; background: #113f40; }
+.dentus-refresh.dentusito-page .kids-game .container { max-width: 1320px; }
+.dentus-refresh.dentusito-page .back-home { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 30px; color: #a5e0d9; font-weight: 700; text-decoration: none; }
+.dentus-refresh.dentusito-page .back-home:hover { color: #fff; }
+.dentus-refresh.dentusito-page .game-heading h1 { color: #fff; }
+.dentus-refresh.dentusito-page .game-heading p { color: #c1d9d6; }
+.dentus-refresh.dentusito-page .game-heading > span { color: #ffd574; }
+.dentus-refresh.dentusito-page .game-shell { grid-template-columns: minmax(0, 1fr) 255px; max-width: 1220px; margin: 0 auto; }
+.dentus-refresh.dentusito-page #caries-game { min-height: 0; height: auto; aspect-ratio: 680 / 360; }
 .dentus-refresh .game-heading { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 35px; }
 .dentus-refresh .game-heading h1, .dentus-refresh .game-heading h2 { margin: 0 0 12px; color: #15494a; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1; letter-spacing: -.05em; }
 .dentus-refresh .game-heading p { max-width: 580px; margin: 0; color: #587574; line-height: 1.6; }
@@ -2264,7 +2270,7 @@ section {
   .dentus-refresh .dentus-map-pin { top: 41%; left: 70%; transform: translate(-50%, -100%) rotate(-2deg) scale(.88); }
   .dentus-refresh .contact-showcase { padding: 72px 0 54px; }
   .dentus-refresh .contact-card { min-height: 250px; }
-  .dentus-refresh.dentusito-page .kids-game { display: block; min-height: 100vh; padding: 42px 0; }
+  .dentus-refresh.dentusito-page .kids-game { display: block; min-height: 100dvh; padding: 32px 0 42px; }
   .dentus-refresh.dentusito-page .back-home { margin-bottom: 28px; }
   .dentus-refresh .game-heading { margin-bottom: 25px; }
   .dentus-refresh #caries-game { min-height: 0; aspect-ratio: 680 / 360; }
