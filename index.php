@@ -96,13 +96,18 @@
     <section id="especialidades" class="services">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Ortodoncia con alineadores invisibles.</h2>
-          <p>Una forma estética, cómoda y personalizada de transformar tu sonrisa.</p>
+          <h2>Ortodoncia y ortopedia.</h2>
+          <p>Tratamientos personalizados para acompañar cada sonrisa, en cada etapa de crecimiento.</p>
+        </div>
+        <div class="treatment-areas">
+          <article><i class="bi bi-stars"></i><h3>Ortodoncia</h3><p>Corregimos la posición de los dientes y la mordida con alternativas pensadas para cada caso.</p><ul><li>Alineadores invisibles</li><li>Brackets metálicos</li><li>Brackets estéticos</li></ul></article>
+          <article><i class="bi bi-emoji-smile"></i><h3>Ortopedia</h3><p>Guiamos el crecimiento de los maxilares y la mordida durante la infancia, en el momento indicado.</p><ul><li>Aparatos removibles</li><li>Alineadores en niños</li></ul></article>
         </div>
         <div class="aligner-feature">
           <div class="aligner-copy">
+            <h3>Alineadores invisibles</h3>
             <p class="aligner-lead">Contamos con tecnología digital y un equipo de expertos para diseñar alineadores personalizados, para vos y para tus hijos.</p>
-            <h3>¿Cómo funciona?</h3>
+            <h4>¿Cómo funciona?</h4>
             <p>Es un tratamiento de ortodoncia y ortopedia con placas completamente transparentes. Se diseñan para realizar movimientos graduales, lograr la posición deseada de los dientes y, en niños y niñas, guiar y redireccionar el crecimiento.</p>
             <a href="https://wa.me/5492995467837" class="text-link">Quiero saber más <i class="bi bi-arrow-up-right"></i></a>
           </div>
