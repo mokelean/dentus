@@ -33,7 +33,7 @@
 
 <body class="dentus-refresh">
 
-  <a href="https://wa.me/5492995467837" class="wp-float" target="_blank">
+  <a href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles." class="wp-float" target="_blank">
     <i class="fa-brands fa-whatsapp"></i>
   </a>
 
@@ -49,7 +49,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
-      <a href="https://wa.me/5492995467837" class="appointment-btn scrollto">Solicitar turno <i class="bi bi-arrow-up-right"></i></a>
+      <a href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles." class="appointment-btn scrollto">Solicitar turno <i class="bi bi-arrow-up-right"></i></a>
     </div>
   </header>
 
@@ -61,7 +61,7 @@
           <h1>Una nueva forma de <em>cuidar</em> tu sonrisa.</h1>
           <p>Tratamientos personalizados, profesionales cerca tuyo y un espacio pensado para que cada visita se sienta simple.</p>
           <div class="hero-actions">
-            <a class="btn-get-started" href="https://wa.me/5492995467837">Solicitar un turno <i class="bi bi-arrow-up-right"></i></a>
+            <a class="btn-get-started" href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles.">Solicitar un turno <i class="bi bi-arrow-up-right"></i></a>
             <a class="hero-link" href="#especialidades">Ver tratamientos <i class="bi bi-arrow-down"></i></a>
           </div>
         </div>
@@ -83,7 +83,7 @@
           </div>
           <div class="col-lg-5 offset-lg-1">
             <p>Un espacio contemporáneo, atención profesional y tratamientos personalizados para cada etapa de tu salud bucal.</p>
-            <a href="https://wa.me/5492995467837" class="text-link">Hablar por WhatsApp <i class="bi bi-arrow-right"></i></a>
+            <a href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles." class="text-link">Hablar por WhatsApp <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
         <div class="trust-grid">
@@ -109,7 +109,7 @@
             <p class="aligner-lead">Contamos con tecnología digital y un equipo de expertos para diseñar alineadores personalizados, para vos y para tus hijos.</p>
             <h4>¿Cómo funciona?</h4>
             <p>Es un tratamiento de ortodoncia y ortopedia con placas completamente transparentes. Se diseñan para realizar movimientos graduales, lograr la posición deseada de los dientes y, en niños y niñas, guiar y redireccionar el crecimiento.</p>
-            <a href="https://wa.me/5492995467837" class="text-link">Quiero saber más <i class="bi bi-arrow-up-right"></i></a>
+            <a href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles." class="text-link">Quiero saber más <i class="bi bi-arrow-up-right"></i></a>
           </div>
           <div class="aligner-image"><img src="assets/images/ortodoncia-alineadores.jpeg" alt="Alineador invisible personalizado"><span>Diseñados para vos.</span></div>
           <div class="aligner-benefits">
@@ -152,7 +152,7 @@
       </div>
     </section>
     <section class="booking-band">
-      <div class="container"><div><span class="eyebrow">¿Listo para empezar?</span><h2>Tu próxima sonrisa empieza con una consulta.</h2></div><a href="https://wa.me/5492995467837" class="booking-button">Escribir por WhatsApp <i class="bi bi-arrow-up-right"></i></a></div>
+      <div class="container"><div><span class="eyebrow">¿Listo para empezar?</span><h2>Tu próxima sonrisa empieza con una consulta.</h2></div><a href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles." class="booking-button">Escribir por WhatsApp <i class="bi bi-arrow-up-right"></i></a></div>
     </section>
   </main>
 
@@ -168,7 +168,7 @@
             <i class="bi bi-clock"></i><span>Horarios de atención</span><h3>Te esperamos.</h3><p><b>Lunes a viernes</b> · 09:00 a 19:00 hs<br><b>Sábados</b> · 10:00 a 14:00 hs</p>
           </div>
           <div class="contact-card contact-action">
-            <i class="bi bi-chat-heart"></i><span>¿Tenés una consulta?</span><h3>Hablemos.</h3><p>Escribinos y coordinamos tu turno de la manera más simple.</p><a href="https://wa.me/5492995467837">WhatsApp <i class="bi bi-arrow-up-right"></i></a><div class="social-links"><a href="https://www.facebook.com/DentusUrquiza/" aria-label="Facebook"><i class="bx bxl-facebook"></i></a><a href="https://www.instagram.com/dentus.nqn/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bx bxl-instagram"></i></a></div>
+            <i class="bi bi-chat-heart"></i><span>¿Tenés una consulta?</span><h3>Hablemos.</h3><p>Escribinos y coordinamos tu turno de la manera más simple.</p><a href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles.">WhatsApp <i class="bi bi-arrow-up-right"></i></a><div class="social-links"><a href="https://www.facebook.com/DentusUrquiza/" aria-label="Facebook"><i class="bx bxl-facebook"></i></a><a href="https://www.instagram.com/dentus.nqn/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bx bxl-instagram"></i></a></div>
           </div>
         </div>
       </div>
