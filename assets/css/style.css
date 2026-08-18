@@ -2166,17 +2166,14 @@ section {
 .dentus-refresh .kids-game { padding: 105px 0; background: #fff; }
 .dentus-refresh.dentusito-page { min-height: 100vh; background: #fff3bc; }
 .dentus-refresh.dentusito-page .kids-game { position: relative; min-height: 100dvh; padding: 42px 0 60px; overflow: hidden; background: #fff3bc; }
-.dentus-refresh .dental-decoration { position: absolute; z-index: 0; pointer-events: none; filter: drop-shadow(0 5px 0 rgba(164, 111, 36, .14)); }
-.dentus-refresh .dental-tooth { top: 72px; right: 8%; width: 72px; height: 72px; border: 6px solid #55c6bf; border-radius: 44% 44% 37% 37%; background: #fffdf4; transform: rotate(10deg); }
-.dentus-refresh .dental-tooth::before, .dentus-refresh .dental-tooth::after { content: ''; position: absolute; bottom: -22px; width: 27px; height: 38px; border: 6px solid #55c6bf; border-top: 0; border-radius: 0 0 22px 22px; background: #fffdf4; }
-.dentus-refresh .dental-tooth::before { left: 2px; transform: rotate(17deg); }
-.dentus-refresh .dental-tooth::after { right: 2px; transform: rotate(-17deg); }
-.dentus-refresh .dental-brush { top: 34%; left: 5%; width: 22px; height: 126px; border-radius: 15px 15px 22px 22px; background: linear-gradient(90deg, #e35d53 0 30%, #f07e6c 30% 70%, #d9544d 70%); transform: rotate(38deg); }
-.dentus-refresh .dental-brush::before { content: ''; position: absolute; left: -15px; top: -40px; width: 52px; height: 47px; border: 5px solid #55c6bf; border-radius: 8px 8px 5px 5px; background: repeating-linear-gradient(90deg, #fffdf4 0 6px, #55c6bf 6px 10px); box-shadow: inset 0 -9px 0 #fffdf4, 0 -6px 0 #fffdf4; }
-.dentus-refresh .dental-brush::after { content: ''; position: absolute; left: -3px; top: -8px; width: 28px; height: 22px; border-radius: 9px 9px 3px 3px; background: #55c6bf; box-shadow: inset 0 -7px 0 #fffdf4; }
-.dentus-refresh .dental-paste { right: 7%; bottom: 11%; width: 76px; height: 120px; border: 0; border-radius: 0; background: #e87260; clip-path: polygon(20% 0, 80% 0, 92% 12%, 87% 86%, 76% 100%, 24% 100%, 13% 86%, 8% 12%); transform: rotate(-17deg); }
-.dentus-refresh .dental-paste::before { content: ''; position: absolute; inset: 5px; background: #fffdf4; clip-path: polygon(20% 0, 80% 0, 92% 12%, 87% 86%, 76% 100%, 24% 100%, 13% 86%, 8% 12%); }
-.dentus-refresh .dental-paste::after { content: ''; position: absolute; top: -14px; left: 22px; width: 32px; height: 19px; border: 5px solid #e87260; border-bottom: 0; border-radius: 4px 4px 0 0; background: repeating-linear-gradient(90deg, #55c6bf 0 5px, #3eafa5 5px 8px); }
+.dentus-refresh .food-decoration { position: absolute; z-index: 0; pointer-events: none; font-size: clamp(3.5rem, 5vw, 5.8rem); line-height: 1; filter: drop-shadow(0 6px 0 rgba(164, 111, 36, .13)); }
+.dentus-refresh .food-decoration::before { display: block; }
+.dentus-refresh .food-strawberry { top: 62px; right: 8%; transform: rotate(12deg); }
+.dentus-refresh .food-strawberry::before { content: '🍓'; }
+.dentus-refresh .food-carrot { top: 34%; left: 5%; transform: rotate(32deg); }
+.dentus-refresh .food-carrot::before { content: '🥕'; }
+.dentus-refresh .food-apple { right: 7%; bottom: 11%; transform: rotate(-14deg); }
+.dentus-refresh .food-apple::before { content: '🍎'; }
 .dentus-refresh.dentusito-page .kids-game .container { position: relative; z-index: 1; max-width: 1320px; }
 .dentus-refresh.dentusito-page .back-home { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 30px; padding: 8px 12px; border-radius: 12px; background: #fff; color: #287c76; box-shadow: 0 3px 0 #d2aa3d; font-weight: 800; text-decoration: none; transform: rotate(-1deg); }
 .dentus-refresh.dentusito-page .back-home:hover { color: #164c4d; transform: rotate(1deg) translateY(1px); }
@@ -2321,8 +2318,8 @@ section {
 }
 @media (max-width: 575px) {
   .dentus-refresh.dentusito-page .kids-game { padding: 18px 0 30px; }
-  .dentus-refresh .dental-tooth { top: 22px; right: 16px; transform: scale(.58) rotate(10deg); transform-origin: top right; }
-  .dentus-refresh .dental-brush, .dentus-refresh .dental-paste { display: none; }
+  .dentus-refresh .food-strawberry { top: 20px; right: 14px; font-size: 2.7rem; }
+  .dentus-refresh .food-carrot, .dentus-refresh .food-apple { display: none; }
   .dentus-refresh.dentusito-page .kids-game .container { padding-right: 14px; padding-left: 14px; }
   .dentus-refresh.dentusito-page .back-home { margin-bottom: 22px; font-size: .88rem; }
   .dentus-refresh.dentusito-page .game-heading { margin-bottom: 20px; text-align: center; }
