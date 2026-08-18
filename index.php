@@ -31,7 +31,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="dentus-refresh">
 
   <a href="https://wa.me/5492995467837" class="wp-float" target="_blank">
     <i class="fa-brands fa-whatsapp"></i>
@@ -49,7 +49,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
-      <a href="https://wa.me/5492995467837" class="appointment-btn scrollto">Contactar ahora</a>
+      <a href="https://wa.me/5492995467837" class="appointment-btn scrollto">Solicitar turno <i class="bi bi-arrow-up-right"></i></a>
     </div>
   </header>
 
@@ -59,27 +59,27 @@
       <div class="carousel-inner" role="listbox">
 
         <div class="carousel-item active" style="background-image: url('assets/images/foto 1 dentus consultorio en villa urquiza bioseguridad dentista consultorio.webp')">
-          <div class="container right">
-            <small>Lo que nos diferencia</small>
-            <h2>Quiénes <span>somos</span></h2>
-            <p>Somos un grupo de profesionales de la salud brindando un servicio integral de odontología individualizada en Neuquén.</p>
-            <p><b>Salud dental y una linda sonrisa de manera accesible.</b></p>
+          <div class="container right hero-card">
+            <small>Odontología integral en Neuquén</small>
+            <h2>Tu sonrisa, <span>en buenas manos.</span></h2>
+            <p>Un equipo cercano, tratamientos personalizados y la tranquilidad de sentirte acompañado desde la primera consulta.</p>
+            <a class="btn-get-started" href="https://wa.me/5492995467837">Reservar una consulta <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
 
         <div class="carousel-item" style="background-image: url('assets/images/foto 2 dentus consultorio en villa urquiza bioseguridad dentista.png')">
-          <div class="container right">
-            <small>Lo que nos diferencia</small>
-            <h2>Bioseguridad</h2>
-            <p>Contamos con estrictos protocolos de higiene y esterilidad, fundamentales en la prevención de enfermedades.</p>
+          <div class="container right hero-card">
+            <small>Una atención segura</small>
+            <h2>Cuidamos cada <span>detalle.</span></h2>
+            <p>Protocolos de bioseguridad, tecnología y profesionales que priorizan tu bienestar en cada etapa.</p>
           </div>
         </div>
 
         <div class="carousel-item" style="background-image: url('assets/images/foto 3 dentus consultorio en villa urquiza bioseguridad dentista consultorio.webp')">
-          <div class="container left">
-            <small>Lo que nos diferencia</small>
-            <h2>Puntualidad</h2>
-            <p>Respetar tu tiempo es clave. Disponer de este beneficio te garantiza no cancelar actividades en tu rutina habitual.</p>
+          <div class="container left hero-card">
+            <small>Tu tiempo importa</small>
+            <h2>Atención cercana, <span>sin esperas.</span></h2>
+            <p>Organizamos cada visita para que puedas cuidar tu salud dental con comodidad y confianza.</p>
           </div>
         </div>
 
@@ -97,7 +97,9 @@
     <section id="especialidades" class="services">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>ESPECIALIDADES</h2>
+          <span class="eyebrow">Tratamientos pensados para vos</span>
+          <h2>Una atención integral para cada sonrisa</h2>
+          <p>Combinamos diagnóstico, planificación y seguimiento para cuidar tu salud bucal a largo plazo.</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
