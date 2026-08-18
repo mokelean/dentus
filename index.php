@@ -154,7 +154,7 @@
   <footer id="footer">
     <section class="footer-top contact-showcase">
       <div class="container">
-        <div class="contact-heading"><span class="eyebrow">Todo lo que necesitás para visitarnos</span><h2>Estamos para acompañarte.</h2></div>
+        <div class="contact-heading"><h2>Estamos para acompañarte.</h2></div>
         <div class="contact-grid">
           <a class="contact-card" href="https://www.google.com/maps/search/?api=1&amp;query=-38.97709197170716,-68.05107392405935" target="_blank" rel="noopener noreferrer">
             <i class="bi bi-geo-alt"></i><span>Ubicación</span><h3>Isla 132, Neuquén</h3><p>Tte. de Navío Eliana María Krawczyk 685 · Edificio Rivera Urbana</p><b>Ver en el mapa <i class="bi bi-arrow-up-right"></i></b>
