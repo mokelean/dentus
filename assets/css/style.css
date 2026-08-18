@@ -2177,10 +2177,12 @@ section {
 .dentus-refresh .contact-card h3 { margin: 10px 0; color: #15494a; font-size: 1.55rem; letter-spacing: -.03em; }
 .dentus-refresh .contact-card p { color: #587574; line-height: 1.62; }
 .dentus-refresh .contact-card > b { position: absolute; bottom: 30px; color: #1e7f80; font-size: .92rem; }
-.dentus-refresh .hours-status { display: inline-flex; align-items: center; gap: 7px; margin-top: 12px; padding: 7px 10px; border-radius: 20px; font-size: .8rem; font-weight: 700; }
+.dentus-refresh .hours-status { display: inline-flex; align-items: center; gap: 8px; margin-top: 16px; padding: 10px 15px; border-radius: 5px; font-size: 1.05rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
 .dentus-refresh .hours-status::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
-.dentus-refresh .hours-status.is-open { color: #17714f; background: #d9f0e3; }
-.dentus-refresh .hours-status.is-closed { color: #b65345; background: #fae0d9; }
+.dentus-refresh .hours-status.is-open { color: #062f1a; background: #42df7c; box-shadow: 0 7px 17px rgba(28, 189, 94, .34); animation: open-sign-pulse 2.3s ease-in-out infinite; }
+.dentus-refresh .hours-status.is-closed { color: #fff; background: #c95248; box-shadow: 0 7px 17px rgba(180, 60, 52, .24); }
+@keyframes open-sign-pulse { 50% { box-shadow: 0 7px 24px rgba(28, 189, 94, .55); } }
+@media (prefers-reduced-motion: reduce) { .dentus-refresh .hours-status.is-open { animation: none; } }
 .dentus-refresh .hours-card { background: #e7f4f1; }
 .dentus-refresh .contact-action { background: #164c4d; border-color: #164c4d; }
 .dentus-refresh .contact-action h3, .dentus-refresh .contact-action p { color: #fff; }
