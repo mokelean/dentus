@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" >
+	<title>Dentus - Centro de odontología en Villa Urquiza - Ortodoncia - Implantes - Blanqueamiento</title>
+	
+	<meta name="theme-color" content="#52BDBE">
+
+	<meta name="description" content="Centro odontológico en Villa Urquiza. Ortodoncia. Implantes. Blanqueamiento. Prótesis. Estética Dental." />
+	<meta name="keywords" content="urquiza,odontologo,odontologia,ortodoncia,implantes,blanqueamiento,dientes,dolor de muela,protesis,tratamiento,conducto,odontopediatria" />
+	
+	<meta property="og:title" content="Dentus - Centro de odontología en Villa Urquiza - Ortodoncia - Implantes - Blanqueamiento" />
+	<meta property="og:description" content="Centro odontológico en Villa Urquiza. Ortodoncia. Implantes. Blanqueamiento. Prótesis. Estética Dental." />
+	<meta property="og:image" content="http://dentus.com.ar/assets/images/og_image.jpg" />
+
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+	
+	<link rel="stylesheet" href="style.css" />
+	<style>
+		.logo { margin: 0; display: block; }
+		.logo img { position: relative; display: block; margin: 15px auto; width: 60%; max-width: 200px; }
+		input[type='text'], input[type='tel'], input[type='email'], textarea { border-radius: 4px; }
+		input[type='text']:hover, input[type='tel']:hover, input[type='email']:hover, textarea:hover { border-radius: 4px;  border-color: #52bdbe; box-shadow: 0px 0px 5px 0px rgba(70, 180, 181, 0.64); outline: none; background: none; }
+		.form-col { margin-bottom: 15px!important; }
+		.form-row label { color: #52bdbe; font-size: 17px; }
+		.form-actions .button { border-radius: 5px; }
+
+		.tab-body { padding: 15px 0; display: flex; align-items: center; }
+		.service-description { margin-bottom: 0; padding: 20px 0 0px 0px; border-left: 0 }
+
+		.phone .fa, .phone small { float: none; display: inline-block; }
+
+		p.copyright { color: #a9a9a9; font-size: 12px; }
+	</style>
+</head>
+<body>
+
+
+<div class="wrapper">
+	<header class="header" style="padding-bottom: 0; /*position: fixed; z-index: 400; width: 100%; background: #fff; box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);*/">
+		
+
+		<div class="row">
+			<div class="columns large-12 medium-12 small-12">
+				<a href="./" class="logo">
+					<img src="assets/images/logo.png" width="762" height="78" alt="Dentus">
+				</a>
+			</div><!-- /.columns large-3 -->
+
+			
+			<!-- <div class="columns large-2 medium-4 mobile-hidden">
+				<p class="phone">
+					<i class="fa fa-phone" style="font-size: 2.2rem; padding-top: 7px;"></i>
+					<small>LLamanos</small>
+					<a href='tel: +5411 2061 8689'>6698-2372</a>					
+				</p>
+			</div> -->
+
+		</div><!-- /.row -->
+	</header><!-- /.header -->	
+	
+	
+
+
+
+	<div class="main">
+
+		<div class="tab-body current" id="implantes" style="background-color: #ecf2f8">
+					<div class="row">
+						<div class="columns large-6 medium-6" style="float:none; margin:auto">
+							<div class="service-description">
+								<h1><span>ORTODONCIA</span></h1>
+								<p>Es la rama de la odontología que se especializa en tratar las mal posiciones dentarias y maloclusiones. El tratamiento tiene como objetivo lograr una oclusión estética, estable y funcional.</p>
+
+								<p>Cada caso es individualizado y planificado, por que lo existen varias alternativas:</p>
+
+								<p>
+									</p><ul>
+										<li>Brackets metálicos</li>
+										<li style="line-height: 20px">Brackets transparentes <br>(de porcelana o zafiro)</li>
+										<li>Técnica lingual</li>
+									</ul>
+								<p></p>
+
+								<div>
+									<p style="margin-bottom: 0">Ortodoncia removible</p>
+									<ul>
+										<li>Alineadores invisibles</li>
+										<li>Ortopedia</li>
+									</ul>
+								</div>
+
+								<hr>
+
+								<p style="text-align: center;">
+								 <b>Que recuperar la SEGURIDAD y LIBERTAD de SONREÍR, no tenga nunca una limitación económica. </b>
+								</p>
+								<p style="text-align: center;">En DENTUS cada tratamiento tiene su IDENTIDAD y se ajusta a tus posibilidades. </p>
+								<p style="text-align: center;">Estás en manos de especialistas CONFIABLES, TECNOLOGÍA de punta, materiales nacionales e importados y FLEXIBILIDAD en la FINANCIACIÓN.</p>
+								<p style="text-align: center;">
+									<!-- <strong>30% OFF Y CUOTAS</strong> -->
+									<img src="assets/images/logos-tarjetas.png" alt="">
+								</p>
+							</div><!-- /.service-description -->
+						</div><!-- /.columns large-4 -->
+
+						<div class="columns large-6 medium-12 small-12"  style="float:none; margin:auto">
+							<img src="assets/images/temp/ortodoncia_slide1.jpg" alt="">
+						</div><!-- /.column -->
+
+					</div><!-- /.row -->
+
+
+
+				</div><!-- /.tab-body -->
+
+
+		<!-- Book appointment -->
+		<section class="section section-book-appointment" id="turno" style="padding: 45px 10px">
+
+			<div class="section-body">
+
+				<div class="form-appointment">
+					<form>
+						<header class="form-head row">
+							
+
+							<div class="columns large-12 medium-12">
+								<!-- <h2 style="font-size: 20px">TURNOS Y CONSULTAS ONLINE</h2>
+								<h6>Es fácil y rápido. Pedinos un turno OnLine o realizanos tu consulta y nosotros te llamamos!</h6> -->
+								<h2 style="font-size: 20px">REALIZÁ TU CONSULTA</h2>
+								<h6>Nosotros te llamamos.</h6>
+							</div><!-- /.columns large-6 -->
+
+							
+						</header><!-- /.form-head -->
+
+						<div class="form-body" style="max-width:600px; margin:auto">
+							<div class="row">
+								<div class="form-row">
+									<div class="form-cols clearfix">
+										<div class="form-col form-col-1of4">
+											<div class="form-controls">
+												<label for="nombre">Nombre</label>
+												<input type="text" class="field" name="nombre" id="field-fname" value="" />
+											</div><!-- /.form-controls -->
+										</div><!-- /.form-col form-col-1of4 -->
+
+										
+										<div class="form-col form-col-1of4">
+											<div class="form-controls">
+												<label for="nombre">Email</label>
+												<input type="email" class="field" name="email" id="field-email" value="" />
+											</div><!-- /.form-controls -->
+										</div><!-- /.form-col form-col-1of4 -->
+										
+										<div class="form-col form-col-1of4">
+											<div class="form-controls">
+												<label for="nombre">Teléfono</label>
+												<input type="tel" class="field" name="telefono" id="field-tel" value="" />
+											</div><!-- /.form-controls -->
+										</div><!-- /.form-col form-col-1of4 -->
+									</div>
+								</div>
+
+								
+								<div class="form-row">
+									<div class="form-controls">
+										<label for="nombre">Comentarios (opcional)</label>
+										<textarea class="textarea" name="mensaje" id="mensaje"></textarea>
+									</div>
+								</div>
+								
+								<div class="form-actions">
+									<input type="hidden" name="action" value="contacto_landing">
+									<input type="hidden" name="especialidad" value="Ortodoncia">
+									<input type="hidden" name="origen" value="landing">
+									<input type="submit" value="ENVIAR CONSULTA" class="button btn-light-blue btn-small" />
+								</div><!-- /.form-actions -->
+							</div><!-- /.row -->
+						</div><!-- /.form-body -->
+					</form>
+
+					<div class="banner_ig" style="margin-top:30px; text-align: center;">
+						<a href="https://www.instagram.com/dentus.urquiza" target="_blank" title="Seguinos en Instagram" onclick="ga('send', 'event', 'Banner IG', 'Click', 'Ortodoncia');">							
+							<img src="http://dentus.com.ar/assets/images/banner-instagram.jpg" alt="Seguinos en Instagram" title="Seguinos en Instagram">
+						</a>
+					</div>
+
+
+				</div><!-- /.form-appoitment -->
+			</div><!-- /.section-body -->
+		</section><!-- /.section-book-appointment -->
+
+		<!-- Section Information -->
+		<section class="section section-information" id="quienes-somos">
+			<div class="row" style="max-width:100%">
+			
+
+				<div class="columns large-6 medium-12 grey">
+					<section class="section-about-us fullsize-image-container" style="padding: 50px 15px">
+						<!-- <h6>DENTUS</h6> -->
+						
+						<h2>¿QUIENES SOMOS?</h2>
+						
+						<p>Somos un grupo de profesionales de la salud especializados en diferentes campos que se propuso como objetivo brindar un servicio integral de odontología individualizada a cada paciente.</p>
+						
+						<h3 style="margin-bottom: 0">Para que puedas contar con una buena salud dental y una linda sonrisa de manera accesible.</h3>
+						
+						
+						<!-- <a href="#especialidades" class="button btn-light-blue btn-small">ESPECIALIDADES</a> -->
+						
+					</section><!-- /.section-about-us -->
+				</div><!-- /.columns large-6 -->
+
+
+				<div class="columns large-6 medium-12 blue" style="padding:0">
+
+					<div class="slider-fotos">
+						<div class="slides">
+							<div style="background-image:url('assets/images/fotos/foto01.jpg');"></div>
+							<div style="background-image:url('assets/images/fotos/foto02.jpg');"></div>
+							<div style="background-image:url('assets/images/fotos/foto03.jpg');"></div>
+							<div style="background-image:url('assets/images/fotos/foto04.jpg');"></div>
+							<div style="background-image:url('assets/images/fotos/foto05.jpg');"></div>
+							<div style="background-image:url('assets/images/fotos/foto06.jpg');"></div>
+						</div>
+					</div>
+
+					<style>
+						.slider-fotos .slides div { 
+							display:block;
+							width: 100%;
+							height:550px;
+							background-size: cover;
+							background-position: center;
+						}
+
+						.slider-fotos .bx-wrapper .bx-controls .bx-prev, .slider-fotos .bx-wrapper .bx-controls .bx-next {
+							color: #fff!important;
+						}
+					</style>
+
+				
+				</div><!-- /.columns large-6 -->
+
+
+			</div><!-- /.row -->
+		</section><!-- /.section-information -->
+
+
+		
+		<!-- Services -->
+		<section class="section section-services" id="especialidades">
+			
+
+			<!-- <header class="section-head">
+				<h2>ESPECIALIDADES</h2>
+			</header> -->
+
+
+			<!-- Advertising -->
+			<div class="row">
+				<div class="ad">
+					<div class="ad-image mobile-hidden">
+						<img src="assets/images/temp/ad.png" width="189" height="219" alt="" />
+					</div><!-- /.ad-image -->
+
+					<header class="ad-head">
+						<h3>RESERVÁ TU TURNO</h3>
+						<p>Es fácil. Podés hacerlo OnLine en 1 minuto <br>y te llamaremos para confirmar!</p>
+					</header><!-- /.ad-head -->
+
+					<div class="ad-actions">
+						<a href="#turno" class="button btn-white btn-small">PEDIR TURNO</a>
+					</div><!-- /.ad-actions -->
+
+					<div class="ad-contacts">
+						<p class="phone">
+							<i class="fa fa-phone" style="font-size: 3.5rem; padding-top: 8px;"></i>
+							<br>
+							<small>TURNOS POR TELÉFONO</small>
+							<a href="tel: +5411 6698-2372">6698-2372</a>
+						</p><!-- /.phone -->
+					</div><!-- /.ad-contacts -->
+				</div><!-- /.ad -->
+			</div><!-- /.row -->
+
+
+
+
+			<div class="row">
+				<a href="whatsapp://send?text=Hola Dentus!&phone=+549117029-0571" title="Escribinos por Whatsapp" onclick="ga('send', 'event', 'Consulta WhatsApp', 'Click', 'destacado');">
+					<div style="position: relative; z-index: 50; padding: 35px; background-color: #e5dcd5;text-align: center; color:#2cbda5; background-image:url(assets/images/whatsapp-chat-background.jpg)">
+						
+
+						<h1 style="color: #37c157" class="desktop-hidden">Hacé click acá para mandarnos un WhatsApp</h1>
+						<h1 style="color: #37c157" class="mobile-hidden">Escribinos por WhatsApp</h1>
+						<h3 style="color: #888888">¡estamos en línea!</h3>
+						
+						<br class="mobile-hidden">
+						<img src="assets/images/whatsapp-logo.png" style="max-width: 100px;margin-top: 10px;" alt="">
+						<h1 style="color: #000000" class="mobile-hidden">+5411 7029-0571</h1>
+
+					</div><!-- /.ad -->
+				</a>
+			</div><!-- /.row -->
+
+
+		</section><!-- /.section-services -->
+
+		
+
+
+	</div><!-- /.main -->
+
+	<div class="footer" id="contacto">
+		<div class="row">
+			<div class="columns large-3 medium-12 contacts">
+				<h5 style="margin-bottom:18px;">¿Dónde estamos?</h5>
+				<p style="margin-bottom:6px">Mendoza 5110 - 8 A (Esq. Ávalos)<br /> Ciudad Autónoma de Buenos Aires</p>
+				<p style="margin-bottom:6px">Lun - Vie: 9 a 20hs <br> Sáb: 9 a 15hs </p>
+				<br>
+				<ul>
+					<li>
+						<p>
+							<span>Teléfono: </span>
+							<span>6698-2372</span>
+						</p>
+					</li>
+
+					<li>
+						<p>
+							<span>WhatsApp: </span>
+							<span>+5411 7029-0571 <a href="whatsapp://send?text=Hola Dentus!&phone=+549117029-0571" title="Escribinos por Whatsapp"><i style="color:#26d367" class="fa fa-whatsapp"></i></a></span>
+						</p>
+					</li>
+					
+					<li>
+						<p>
+							<span>Email:</span>
+							<span>dentus.urquiza@gmail.com</span>
+						</p>
+					</li>
+				</ul>
+			</div><!-- /.columns large-3 -->
+			
+			
+			<div class="columns large-6 medium-12 contacts">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.054063270739!2d-58.486385385168234!3d-34.577498563617496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6680d259c7f%3A0x73dabc0f068076ba!2sMendoza+5110%2C+Buenos+Aires!5e0!3m2!1sen!2sar!4v1533991157676" width="800" height="220" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
+				
+			</div><!-- /.columns large-3 -->
+
+			<div class="columns large-3 medium-12 contacts">
+				<h5 style="margin-bottom:18px;">Cómo llegar</h5>
+				<ul>
+					<li>
+						<p style="line-height: 1.2; margin-bottom: 15px;">
+							<span>Subte</span><br>
+							<span>Línea B (Estación J. M. de Rosas)</span>
+						</p>
+					</li>
+					
+					<li>
+						<p style="line-height: 1.2; margin-bottom: 15px;">
+							<span>Tren</span><br>
+							<span>Mitre (Estación Urquiza)</span>
+						</p>
+					</li>
+
+					<li>
+						<p style="line-height: 1.2; margin-bottom: 15px;">
+							<span>Colectivos</span><br>
+							<span>71 / 90 / 107 / 108 / 112 / 114 / 127 / 133 / 140 / 169 / 175 / 176</span>
+						</p>
+					</li>
+				</ul>
+			</div><!-- /.columns large-3 -->
+		</div><!-- /.row -->
+
+		<div class="row" style="text-align: center">
+			<p class="copyright">
+			<a href="http://www.facebook.com/dentus.urquiza" target="_blank" title="Seguinos en Facebook" style="padding:5px; display: inline-block;"><img width="25" height="25" src="assets/images/facebook_social.jpg"></a>
+
+            <a href="http://www.instagram.com/dentus.urquiza" target="_blank" title="Seguinos en Instagram" style="padding:5px; display: inline-block;"><img width="25" height="25" src="assets/images/inst_social.jpg"></a>
+
+			<a href="whatsapp://send?text=Hola Dentus!&phone=+549117029-0571" target="_blank" title="Escribinos por Whatsapp" style="padding-left:5px; padding-right:5px"><img width="25" height="25" src="assets/images/icon_whatsapp.jpg" class="desktop-hidden"></a>
+			<br>
+			
+				Copyright 2017. Todos los derechos reservados.</p><!-- /.copyright -->
+		</div><!-- /.row -->
+	</div><!-- /.footer -->	
+</div><!-- /.wrapper -->
+<script src="assets/javascripts/vendor.js"></script>
+<script src="assets/javascripts/jquery.stellar.min.js"></script>
+
+<script src="assets/javascripts/sweetalert.min.js"></script> 
+<link rel="stylesheet" type="text/css" href="assets/javascripts/sweetalert.css">
+
+<script type="text/javascript" src="assets/javascripts/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="assets/javascripts/jquery.localScroll.js"></script>
+<script type="text/javascript" src="assets/javascripts/jquery.form.js"></script>
+
+<script>
+		
+	$(document).ready(function() {
+
+		var $win = $(window);
+		var $doc = $(document);
+
+		var sliderFotos = $('.slider-fotos .slides').bxSlider({
+			auto: true,
+			pager: false,
+			autoControls: false,
+			autoHover: true
+		});
+
+		$.localScroll({
+			target: 'body', // could be a selector or a jQuery object too.
+			queue:true,
+			duration:1000,
+			hash:true,
+			// offset: {top: -60},
+			onBefore:function( e, anchor, $target ){
+				// The 'this' is the settings object, can be modified
+			},
+			onAfter:function( anchor, settings ){
+				// The 'this' contains the scrolled element (#content)
+			}
+		});
+
+
+
+
+		$(window).scroll(function () {
+	        if ($(this).scrollTop() > 1000 ) {
+	            $('.scrollup').fadeIn();
+	        } else {
+	            $('.scrollup').fadeOut();
+	        }
+	    });
+	});
+
+	$("form").on("submit", function(e){
+
+        e.preventDefault();
+        var f = e.target;
+        var a = f.action.value;
+        if(!f.nombre.value || f.nombre.value=='Nombre' || !f.email.value || !f.telefono.value || f.telefono.value=='Telefono') { alertErrorCampos(); return false; }
+        if(!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/.test(f.email.value)) { alertErrorEmail(); return false; } 
+        
+
+        function alertErrorCampos() {
+            swal({title:"Faltan datos", text:"Por favor, completá todos los campos del formulario para que podamos brindarte una mejor atención...", type:"warning", confirmButtonColor: "#52BDBE"});
+        }
+
+        function alertErrorCV() {
+            swal({title:"Faltan datos", text:"¡No olvides adjuntar tu CV! \n\nPuede ser un archivo word, un pdf o una imagen...", type:"warning", confirmButtonColor: "#52BDBE"});
+        }
+
+        function alertErrorEmail() {
+            swal({title:"Email inválido", text:"Por favor, revisá la dirección de email que escribiste, parece no ser válida...", type:"warning", confirmButtonColor: "#52BDBE"});
+        }
+
+
+
+        $(f).ajaxSubmit({ url:'php/process.php', type:'post', data:{}, beforeSubmit:function() { lockSubmit(true, "Enviando..."); $("#status").stop(true, true).hide().html("<img src='img/ajax-loader.gif'>").fadeIn(); }, 
+        success:function(response, status) { lockSubmit(false, "Enviar"); $("#status").stop(true, true).hide();
+            switch(response) {
+                case "ok": 
+                        f.reset();
+                        ejecutarPixels();
+                        swal({title:"Mensaje enviado", text:"Hemos recibido tu solicitud. \nNos pondremos en contacto con vos a la brevedad.\n\nDentus.", type:"success", confirmButtonColor: "#52BDBE"});
+                    break;
+                
+                case "error":
+                default: 
+                    swal({title:"Ha ocurrido un error", text:"Por favor, intentá enviar nuevamente...", type:"error", confirmButtonColor: "#52BDBE"});
+                break;
+            }}
+        });
+
+
+        function lockSubmit(bool, txt) { 
+	        if(bool) $("input[type=submit]").attr("disabled", true).val(txt).css("cursor", "default").fadeTo('fast', 0.2);
+	        else $("input[type=submit]").attr("disabled", false).val(txt).css("cursor", "pointer").fadeTo('fast', 1);
+	    }
+
+
+    });
+
+
+    function ejecutarPixels() {
+
+		var google_conversion_id = 878948772;
+		var google_conversion_language = "en";
+		var google_conversion_format = "3";
+		var google_conversion_color = "ffffff";
+		var google_conversion_label = "U4UNCO3U33MQpOOOowM";
+		var google_remarketing_only = false;
+
+		// Google Conversion
+		$.getScript('//www.googleadservices.com/pagead/conversion.js');
+		var image = new Image(1, 1); 
+			image.src = "//www.googleadservices.com/pagead/conversion/878948772/?label=U4UNCO3U33MQpOOOowM&amp;guid=ON&amp;script=0";
+
+
+		ga('send', 'event', 'Consulta online', 'Enviar', 'Ortodoncia');
+
+
+		//Facebook Pixel Code
+		/*fbq('init', '120144581902316'); 
+		fbq('track', 'PageView');
+
+		fbq('track', 'CompleteRegistration');
+
+		var image2 = new Image(1, 1); 
+		image2.src = "https://www.facebook.com/tr?id=120144581902316&ev=PageView&noscript=1";*/
+	}
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79593141-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

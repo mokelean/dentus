@@ -1,0 +1,13 @@
+# Runtime configuration and credentials
+/config/config.php
+/test/uno/config/config.php
+/php/process.php
+/test/uno/php/process.php
+/php/mysql/DB_CONN.php
+/test/uno/php/mysql/DB_CONN.php
+
+# Editor metadata and local backups
+*.sublime-workspace
+*.sublime-project
+*.bak
+*.BKP*
