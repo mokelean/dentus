@@ -2284,3 +2284,20 @@ section {
   .wp-float { right: 18px; bottom: 20px; }
   .ig-float { right: 22px; bottom: 94px; }
 }
+@media (max-width: 575px) {
+  .dentus-refresh.dentusito-page .kids-game { padding: 18px 0 30px; }
+  .dentus-refresh.dentusito-page .kids-game::before, .dentus-refresh.dentusito-page .kids-game::after { display: none; }
+  .dentus-refresh.dentusito-page .kids-game .container { padding-right: 14px; padding-left: 14px; }
+  .dentus-refresh.dentusito-page .back-home { margin-bottom: 22px; font-size: .88rem; }
+  .dentus-refresh.dentusito-page .game-heading { margin-bottom: 20px; text-align: center; }
+  .dentus-refresh.dentusito-page .game-heading h1 { font-size: 3.45rem; }
+  .dentus-refresh.dentusito-page .game-heading p { font-size: 1rem; }
+  .dentus-refresh.dentusito-page .game-heading > span { display: none; }
+  .dentus-refresh.dentusito-page .game-shell { border-width: 4px; border-radius: 18px; box-shadow: 0 8px 0 #d8a638, 0 16px 26px rgba(154, 104, 32, .18); }
+  .dentus-refresh.dentusito-page #caries-game { min-height: 0; height: min(92vw, 390px); aspect-ratio: auto; }
+  .dentus-refresh.dentusito-page .game-panel { padding: 21px 18px 24px; text-align: center; }
+  .dentus-refresh.dentusito-page .game-panel strong { margin: 4px 0 10px; font-size: 3rem; }
+  .dentus-refresh.dentusito-page .game-panel p { max-width: 250px; margin: 0 auto; }
+  .dentus-refresh.dentusito-page .game-controls { margin-top: 15px; }
+  .dentus-refresh.dentusito-page .game-panel button#game-restart { margin-top: 16px; width: 100%; padding: 13px; }
+}
