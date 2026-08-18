@@ -2113,6 +2113,7 @@ section {
 .dentus-refresh .treatment-areas p { margin: 0; color: #527071; line-height: 1.55; }
 .dentus-refresh .treatment-areas ul { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 23px 0 0; list-style: none; }
 .dentus-refresh .treatment-areas li { padding: 7px 10px; background: rgba(255,255,255,.8); color: #296363; font-size: .88rem; font-weight: 600; }
+.dentus-refresh .treatment-areas .treatment-note { margin-top: 16px; color: #276566; font-size: .91rem; font-weight: 600; }
 .dentus-refresh .aligner-feature { display: grid; grid-template-columns: 1.15fr .85fr; gap: 0; overflow: hidden; border-radius: 16px; background: #fff; border: 1px solid #d5e8e4; }
 .dentus-refresh .aligner-copy { padding: 54px; }
 .dentus-refresh .aligner-copy > h3 { margin: 0 0 18px; color: #15494a; font-size: 2rem; letter-spacing: -.04em; }

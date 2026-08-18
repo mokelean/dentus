@@ -100,8 +100,8 @@
           <p>Tratamientos personalizados para acompañar cada sonrisa, en cada etapa de crecimiento.</p>
         </div>
         <div class="treatment-areas">
-          <article><i class="bi bi-stars"></i><h3>Ortodoncia</h3><p>Corregimos la posición de los dientes y la mordida con alternativas pensadas para cada caso.</p><ul><li>Alineadores invisibles</li><li>Brackets metálicos</li><li>Brackets estéticos</li></ul></article>
-          <article><i class="bi bi-emoji-smile"></i><h3>Ortopedia</h3><p>Guiamos el crecimiento de los maxilares y la mordida durante la infancia, en el momento indicado.</p><ul><li>Aparatos removibles</li><li>Alineadores en niños</li></ul></article>
+          <article><i class="bi bi-stars"></i><h3>Ortodoncia</h3><p>Es la rama de la odontología que trata las malposiciones dentarias y maloclusiones, para lograr una oclusión estética, estable y funcional.</p><ul><li>Brackets metálicos</li><li>Brackets de porcelana</li><li>Brackets de zafiro</li><li>Técnica lingual</li><li>Ortodoncia removible</li><li>Alineadores invisibles</li></ul></article>
+          <article><i class="bi bi-emoji-smile"></i><h3>Ortopedia</h3><p>Es la especialidad que rehabilita la función y redirecciona el crecimiento de los maxilares, acompañando el desarrollo de niños y niñas.</p><ul><li>Aparatos removibles</li><li>Alineadores en niños</li></ul><p class="treatment-note">Según cada caso, utilizamos aparatos o alineadores para guiar el crecimiento.</p></article>
         </div>
         <div class="aligner-feature">
           <div class="aligner-copy">
