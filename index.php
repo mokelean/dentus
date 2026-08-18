@@ -191,7 +191,7 @@
               </p>
               <div class="social-links mt-3">
                 <a href="https://www.facebook.com/DentusUrquiza/" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/dentus.urquiza/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.instagram.com/dentus.nqn/" class="instagram" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i></a>
               </div>
             </div>
           </div>

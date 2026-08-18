@@ -65,7 +65,7 @@
 			<p class="copyright">
 			<a href="http://www.facebook.com/dentus.urquiza" target="_blank" title="Seguinos en Facebook" style="padding:5px; display: inline-block;"><img width="25" height="25" src="assets/images/facebook_social.jpg"></a>
 
-            <a href="http://www.instagram.com/dentus.urquiza" target="_blank" title="Seguinos en Instagram" style="padding:5px; display: inline-block;"><img width="25" height="25" src="assets/images/inst_social.jpg"></a>
+            <a href="https://www.instagram.com/dentus.nqn/" target="_blank" rel="noopener noreferrer" title="Seguinos en Instagram" style="padding:5px; display: inline-block;"><img width="25" height="25" src="assets/images/inst_social.jpg"></a>
 
 			<a href="whatsapp://send?text=Hola Dentus!&phone=+549117029-0571" target="_blank" title="Escribinos por Whatsapp" style="padding-left:5px; padding-right:5px"><img width="25" height="25" src="assets/images/icon_whatsapp.jpg" class="desktop-hidden"></a>
 			<br>
