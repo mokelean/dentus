@@ -151,7 +151,7 @@
         <div class="gallery-grid">
           <figure class="gallery-large"><img src="assets/images/consultorio-ventanales.jpeg" alt="Vista desde el consultorio Dentus"></figure>
           <figure><img src="assets/images/consultorio-sillon.jpeg" alt="Consultorio odontológico Dentus"></figure>
-          <figure><img src="assets/images/ortodoncia-alineadores.jpeg" alt="Alineadores de ortodoncia"></figure>
+          <figure><img src="assets/images/foto 2 dentus consultorio en villa urquiza bioseguridad dentista.png" alt="Atención odontológica en Dentus"></figure>
         </div>
       </div>
     </section>
