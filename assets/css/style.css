@@ -2111,6 +2111,15 @@ section {
 .dentus-refresh .care-image img { position: relative; z-index: 1; width: 100%; min-height: 430px; object-fit: cover; border-radius: 14px; }
 .dentus-refresh .care-copy ul { padding: 8px 0 0; list-style: none; color: #305b5b; line-height: 2.2; }
 .dentus-refresh .care-copy li i { color: #52bdbf; font-weight: 700; margin-right: 8px; }
+.dentus-refresh .clinic-gallery { padding: 108px 0; background: #e8f3f1; }
+.dentus-refresh .gallery-heading { display: flex; justify-content: space-between; align-items: end; gap: 40px; margin-bottom: 38px; }
+.dentus-refresh .gallery-heading h2 { max-width: 650px; margin: 12px 0 0; color: #15494a; font-size: clamp(2rem, 4vw, 3.45rem); line-height: 1.05; letter-spacing: -.05em; }
+.dentus-refresh .gallery-heading p { max-width: 325px; margin: 0 0 5px; color: #587574; line-height: 1.65; }
+.dentus-refresh .gallery-grid { display: grid; grid-template-columns: 1.18fr .82fr .82fr; grid-template-rows: 260px; gap: 16px; }
+.dentus-refresh .gallery-grid figure { margin: 0; overflow: hidden; border-radius: 12px; }
+.dentus-refresh .gallery-grid img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .45s ease; }
+.dentus-refresh .gallery-grid figure:hover img { transform: scale(1.045); }
+.dentus-refresh .gallery-grid .gallery-large img { object-position: center 65%; }
 .dentus-refresh .booking-band { padding: 75px 0; background: #164c4d; color: #fff; }
 .dentus-refresh .booking-band .container { display: flex; justify-content: space-between; align-items: center; gap: 30px; }
 .dentus-refresh .booking-band h2 { max-width: 680px; margin: 13px 0 0; color: #fff; font-size: clamp(2rem, 3.5vw, 3.4rem); letter-spacing: -.045em; line-height: 1.05; }
@@ -2149,6 +2158,7 @@ section {
   .dentus-refresh .hero-visual { min-height: 420px; max-width: 620px; }
   .dentus-refresh .hero-visual img { height: 420px; }
   .dentus-refresh .booking-band .container { align-items: flex-start; flex-direction: column; }
+  .dentus-refresh .gallery-heading { align-items: start; flex-direction: column; gap: 14px; }
   .dentus-refresh .map-card { left: 25px; top: 25px; }
   .dentus-refresh .contact-grid { grid-template-columns: 1fr; }
 }
@@ -2159,6 +2169,9 @@ section {
   .dentus-refresh .hero-note { left: 16px; bottom: 16px; }
   .dentus-refresh .trust-grid { grid-template-columns: 1fr; margin-top: 46px; }
   .dentus-refresh .intro-panel, .dentus-refresh .services, .dentus-refresh .care-story { padding: 76px 0; }
+  .dentus-refresh .clinic-gallery { padding: 76px 0; }
+  .dentus-refresh .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: 250px 180px; }
+  .dentus-refresh .gallery-grid .gallery-large { grid-column: 1 / -1; }
   .dentus-refresh .map-shell, .dentus-refresh .map-shell iframe { min-height: 500px; height: 500px; }
   .dentus-refresh .map-card { top: auto; bottom: 0; left: 0; width: 100%; }
   .dentus-refresh .contact-showcase { padding: 72px 0 54px; }

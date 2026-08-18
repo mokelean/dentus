@@ -137,12 +137,22 @@
     <section class="care-story">
       <div class="container">
         <div class="row align-items-center g-5">
-          <div class="col-lg-5"><div class="care-image"><img src="assets/images/foto 2 dentus consultorio en villa urquiza bioseguridad dentista.png" alt="Espacio de atención Dentus"></div></div>
+          <div class="col-lg-5"><div class="care-image"><img src="assets/images/atencion-dentus.jpeg" alt="Profesional atendiendo en Dentus"></div></div>
           <div class="col-lg-6 offset-lg-1 care-copy">
             <h2>Escuchar primero. Indicar después.</h2>
             <p>Cada tratamiento empieza con una conversación clara. Te explicamos las alternativas, planificamos juntos y acompañamos el proceso para que tomes decisiones con tranquilidad.</p>
             <ul><li><i class="bi bi-check2"></i> Planes de tratamiento personalizados</li><li><i class="bi bi-check2"></i> Tecnología y bioseguridad en cada consulta</li><li><i class="bi bi-check2"></i> Atención cálida en un entorno cómodo</li></ul>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="clinic-gallery">
+      <div class="container">
+        <div class="gallery-heading"><div><h2>Un consultorio pensado para que te sientas bien.</h2></div><p>Luz natural, tecnología y una atención que se toma el tiempo de acompañarte.</p></div>
+        <div class="gallery-grid">
+          <figure class="gallery-large"><img src="assets/images/consultorio-ventanales.jpeg" alt="Vista desde el consultorio Dentus"></figure>
+          <figure><img src="assets/images/consultorio-sillon.jpeg" alt="Consultorio odontológico Dentus"></figure>
+          <figure><img src="assets/images/ortodoncia-alineadores.jpeg" alt="Alineadores de ortodoncia"></figure>
         </div>
       </div>
     </section>
