@@ -2184,7 +2184,7 @@ section {
 .dentus-refresh .game-heading p { max-width: 580px; margin: 0; color: #587574; line-height: 1.6; }
 .dentus-refresh .game-heading > span { color: #c84851; font-size: .9rem; font-weight: 800; }
 .dentus-refresh .game-shell { display: grid; grid-template-columns: minmax(0, 1fr) 235px; overflow: hidden; border-radius: 16px; box-shadow: 0 15px 34px rgba(14, 61, 62, .14); }
-.dentus-refresh #caries-game { width: 100%; height: auto; min-height: 360px; display: block; background: #113f40; cursor: crosshair; outline: none; }
+.dentus-refresh #caries-game { width: 100%; height: auto; min-height: 360px; display: block; background: #113f40; cursor: crosshair; outline: none; touch-action: none; }
 .dentus-refresh #caries-game:focus { box-shadow: inset 0 0 0 4px #a5e0d9; }
 .dentus-refresh .game-panel { padding: 35px 27px; background: #dff0ed; }
 .dentus-refresh .score-label { color: #638482; font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }

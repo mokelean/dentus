@@ -11,6 +11,7 @@
   let teeth = [];
   let score = 0;
   let completed = false;
+  let touchTarget = null;
 
   const createTeeth = () => Array.from({ length: 12 }, (_, index) => ({
     x: 130 + ((index * 151) % 500),
@@ -25,8 +26,9 @@
     teeth = createTeeth();
     score = 0;
     completed = false;
+    touchTarget = null;
     scoreNode.textContent = score;
-    messageNode.textContent = 'Usá las flechas o WASD para moverte.';
+    messageNode.textContent = 'Tocá el tablero para mover a Dentusito o usá las flechas.';
     canvas.focus();
   };
 
@@ -34,14 +36,21 @@
     if (completed) return;
     let horizontal = 0;
     let vertical = 0;
-    if (keys.has('ArrowLeft') || keys.has('a')) horizontal -= 1;
-    if (keys.has('ArrowRight') || keys.has('d')) horizontal += 1;
-    if (keys.has('ArrowUp') || keys.has('w')) vertical -= 1;
-    if (keys.has('ArrowDown') || keys.has('s')) vertical += 1;
+    if (touchTarget) {
+      horizontal = touchTarget.x - player.x;
+      vertical = touchTarget.y - player.y;
+      if (Math.hypot(horizontal, vertical) < 5) touchTarget = null;
+    } else {
+      if (keys.has('ArrowLeft') || keys.has('a')) horizontal -= 1;
+      if (keys.has('ArrowRight') || keys.has('d')) horizontal += 1;
+      if (keys.has('ArrowUp') || keys.has('w')) vertical -= 1;
+      if (keys.has('ArrowDown') || keys.has('s')) vertical += 1;
+    }
     if (horizontal || vertical) {
       const length = Math.hypot(horizontal, vertical);
-      player.x += (horizontal / length) * player.speed;
-      player.y += (vertical / length) * player.speed;
+      const speed = touchTarget ? player.speed * 1.6 : player.speed;
+      player.x += (horizontal / length) * speed;
+      player.y += (vertical / length) * speed;
       player.angle = Math.atan2(vertical, horizontal);
     }
     player.x = Math.max(player.radius, Math.min(canvas.width - player.radius, player.x));
@@ -106,11 +115,21 @@
     }
   });
   document.addEventListener('keyup', event => keys.delete(event.key));
-  canvas.addEventListener('click', () => canvas.focus());
+  const setTouchTarget = event => {
+    const bounds = canvas.getBoundingClientRect();
+    touchTarget = {
+      x: (event.clientX - bounds.left) * (canvas.width / bounds.width),
+      y: (event.clientY - bounds.top) * (canvas.height / bounds.height)
+    };
+    keys.clear();
+    canvas.focus();
+  };
+  canvas.addEventListener('pointerdown', event => { event.preventDefault(); setTouchTarget(event); });
+  canvas.addEventListener('pointermove', event => { if (event.buttons === 1) setTouchTarget(event); });
   restartButton.addEventListener('click', reset);
   document.querySelectorAll('[data-move]').forEach(button => {
     const direction = button.dataset.move;
-    button.addEventListener('pointerdown', event => { event.preventDefault(); keys.add(direction); });
+    button.addEventListener('pointerdown', event => { event.preventDefault(); touchTarget = null; keys.add(direction); });
     ['pointerup', 'pointerleave', 'pointercancel'].forEach(type => button.addEventListener(type, () => keys.delete(direction)));
   });
   reset();
