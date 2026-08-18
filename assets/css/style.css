@@ -2171,12 +2171,12 @@ section {
 .dentus-refresh .dental-tooth::before, .dentus-refresh .dental-tooth::after { content: ''; position: absolute; bottom: -22px; width: 27px; height: 38px; border: 6px solid #55c6bf; border-top: 0; border-radius: 0 0 22px 22px; background: #fffdf4; }
 .dentus-refresh .dental-tooth::before { left: 2px; transform: rotate(17deg); }
 .dentus-refresh .dental-tooth::after { right: 2px; transform: rotate(-17deg); }
-.dentus-refresh .dental-brush { top: 34%; left: 5%; width: 18px; height: 116px; border-radius: 20px; background: #eb7564; transform: rotate(38deg); }
-.dentus-refresh .dental-brush::before { content: ''; position: absolute; left: -11px; top: -23px; width: 40px; height: 32px; border-radius: 9px 9px 5px 5px; background: repeating-linear-gradient(90deg, #fffdf4 0 5px, #55c6bf 5px 9px); box-shadow: 0 -4px 0 #55c6bf; }
-.dentus-refresh .dental-brush::after { content: ''; position: absolute; left: 4px; bottom: 11px; width: 10px; height: 10px; border-radius: 50%; background: #fff3bc; }
-.dentus-refresh .dental-paste { right: 7%; bottom: 11%; width: 55px; height: 105px; border: 5px solid #e87260; border-radius: 13px 13px 22px 22px; background: #fffdf4; transform: rotate(-17deg); }
-.dentus-refresh .dental-paste::before { content: ''; position: absolute; top: -18px; left: 12px; width: 23px; height: 15px; border: 5px solid #e87260; border-bottom: 0; border-radius: 5px 5px 0 0; background: #55c6bf; }
-.dentus-refresh .dental-paste::after { content: 'Dentus'; position: absolute; top: 34px; left: 3px; color: #55c6bf; font-size: .65rem; font-weight: 800; transform: rotate(90deg); }
+.dentus-refresh .dental-brush { top: 34%; left: 5%; width: 22px; height: 126px; border-radius: 15px 15px 22px 22px; background: linear-gradient(90deg, #e35d53 0 30%, #f07e6c 30% 70%, #d9544d 70%); transform: rotate(38deg); }
+.dentus-refresh .dental-brush::before { content: ''; position: absolute; left: -15px; top: -40px; width: 52px; height: 47px; border: 5px solid #55c6bf; border-radius: 8px 8px 5px 5px; background: repeating-linear-gradient(90deg, #fffdf4 0 6px, #55c6bf 6px 10px); box-shadow: inset 0 -9px 0 #fffdf4, 0 -6px 0 #fffdf4; }
+.dentus-refresh .dental-brush::after { content: ''; position: absolute; left: -3px; top: -8px; width: 28px; height: 22px; border-radius: 9px 9px 3px 3px; background: #55c6bf; box-shadow: inset 0 -7px 0 #fffdf4; }
+.dentus-refresh .dental-paste { right: 7%; bottom: 11%; width: 76px; height: 120px; border: 0; border-radius: 0; background: #e87260; clip-path: polygon(20% 0, 80% 0, 92% 12%, 87% 86%, 76% 100%, 24% 100%, 13% 86%, 8% 12%); transform: rotate(-17deg); }
+.dentus-refresh .dental-paste::before { content: ''; position: absolute; inset: 5px; background: #fffdf4; clip-path: polygon(20% 0, 80% 0, 92% 12%, 87% 86%, 76% 100%, 24% 100%, 13% 86%, 8% 12%); }
+.dentus-refresh .dental-paste::after { content: ''; position: absolute; top: -14px; left: 22px; width: 32px; height: 19px; border: 5px solid #e87260; border-bottom: 0; border-radius: 4px 4px 0 0; background: repeating-linear-gradient(90deg, #55c6bf 0 5px, #3eafa5 5px 8px); }
 .dentus-refresh.dentusito-page .kids-game .container { position: relative; z-index: 1; max-width: 1320px; }
 .dentus-refresh.dentusito-page .back-home { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 30px; padding: 8px 12px; border-radius: 12px; background: #fff; color: #287c76; box-shadow: 0 3px 0 #d2aa3d; font-weight: 800; text-decoration: none; transform: rotate(-1deg); }
 .dentus-refresh.dentusito-page .back-home:hover { color: #164c4d; transform: rotate(1deg) translateY(1px); }
