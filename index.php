@@ -181,7 +181,7 @@
       <div class="container">
         <div class="map-shell">
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3727.6639096102094!2d-68.05107392405935!3d-38.97709197170716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDU4JzM3LjUiUyA2OMKwMDInNTQuNiJX!5e1!3m2!1ses!2sar!4v1771592957960!5m2!1ses!2sar" 
+            src="https://maps.google.com/maps?q=-38.97709197170716,-68.05107392405935&amp;z=16&amp;t=&amp;output=embed" 
             title="Ubicación de Dentus en Neuquén"
             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           <div class="map-card">
