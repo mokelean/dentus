@@ -2093,6 +2093,7 @@ section {
 .dentus-refresh .hero-note { position: absolute; left: -42px; bottom: 48px; display: flex; gap: 12px; align-items: center; padding: 17px 21px; background: #fff; border-radius: 10px; box-shadow: 0 15px 35px rgba(23, 79, 80, .15); color: #174f50; line-height: 1.2; }
 .dentus-refresh .hero-note i { color: #52bdbf; font-size: 1.5rem; }
 .dentus-refresh .intro-panel { padding: 106px 0 64px; background: #fff; }
+.dentus-refresh .intro-panel .eyebrow { color: #2e6b6c; font-size: .9rem; font-weight: 650; letter-spacing: .02em; text-transform: none; }
 .dentus-refresh .intro-panel h2, .dentus-refresh .care-copy h2 { margin: 14px 0 0; font-size: clamp(2.2rem, 4vw, 3.8rem); line-height: 1.08; letter-spacing: -.045em; color: #153c3e; }
 .dentus-refresh .intro-panel p, .dentus-refresh .care-copy p { color: #587475; font-size: 1.1rem; line-height: 1.75; }
 .dentus-refresh .trust-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 70px; background: #d7e8e4; border: 1px solid #d7e8e4; }
