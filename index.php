@@ -49,6 +49,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
+      <a href="https://www.instagram.com/dentus.nqn/" class="header-instagram" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i><span>Instagram</span></a>
       <a href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles." class="appointment-btn scrollto">Solicitar turno <i class="bi bi-arrow-up-right"></i></a>
     </div>
   </header>

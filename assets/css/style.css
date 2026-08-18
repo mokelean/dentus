@@ -735,6 +735,9 @@ section {
   background: #167f81;
   transform: translateY(-1px);
 }
+.dentus-refresh .header-instagram { display: inline-flex; align-items: center; gap: 7px; margin-left: 24px; color: #275e5f; font-size: .88rem; font-weight: 700; text-decoration: none; }
+.dentus-refresh .header-instagram i { color: #1b9798; font-size: 1.28rem; }
+.dentus-refresh .header-instagram:hover { color: #1b9798; }
 
 .dentus-refresh #hero {
   height: min(760px, 92vh);
@@ -903,6 +906,7 @@ section {
   .dentus-refresh .appointment-btn {
     display: none;
   }
+  .dentus-refresh .header-instagram { margin-left: auto; margin-right: 17px; }
 
   .dentus-refresh section {
     padding: 76px 0;
@@ -2204,6 +2208,8 @@ section {
 }
 @media (max-width: 767px) {
   .dentus-refresh .hero-copy h1 { font-size: 3.3rem; }
+  .dentus-refresh .header-instagram span { display: none; }
+  .dentus-refresh .header-instagram { margin-right: 13px; }
   .dentus-refresh .hero-visual, .dentus-refresh .hero-visual img { min-height: 350px; height: 350px; }
   .dentus-refresh .hero-visual img { border-radius: 100px 100px 12px 12px; }
   .dentus-refresh .hero-note { left: 16px; bottom: 16px; }
