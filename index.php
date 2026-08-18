@@ -221,7 +221,7 @@
         const opensAt = day === 'Sat' ? 10 * 60 : 9 * 60;
         const openToday = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].includes(day);
         const isOpen = openToday && time >= opensAt && time < closesAt;
-        status.textContent = isOpen ? `Abierto ahora · cierra a las ${closesAt / 60}:00 hs` : 'Cerrado ahora';
+        status.textContent = isOpen ? 'Abierto' : 'Cerrado';
         status.classList.toggle('is-open', isOpen);
         status.classList.toggle('is-closed', !isOpen);
       };
