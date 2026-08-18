@@ -182,9 +182,10 @@
       <div class="container">
         <div class="map-shell">
           <iframe 
-            src="https://maps.google.com/maps?q=-38.97709197170716,-68.05107392405935&amp;z=16&amp;t=&amp;output=embed" 
+            src="https://maps.google.com/maps?ll=-38.97709197170716,-68.05107392405935&amp;z=16&amp;t=&amp;output=embed" 
             title="Ubicación de Dentus en Neuquén"
             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="dentus-map-pin" aria-label="Dentus"><img src="assets/images/logo.png" alt="Dentus"><span></span></div>
           <div class="map-card">
             <span class="eyebrow">Estamos cerca</span>
             <h3>Encontranos en<br>Isla 132.</h3>
