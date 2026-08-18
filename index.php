@@ -57,7 +57,7 @@
     <div class="container">
       <div class="hero-grid">
         <div class="hero-copy">
-          <span class="eyebrow">Odontología integral · Neuquén</span>
+          <span class="eyebrow">Odontología para cuidar tu sonrisa en Neuquén</span>
           <h1>Una nueva forma de <em>cuidar</em> tu sonrisa.</h1>
           <p>Tratamientos personalizados, profesionales cerca tuyo y un espacio pensado para que cada visita se sienta simple.</p>
           <div class="hero-actions">
