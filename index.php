@@ -166,7 +166,7 @@
             <i class="bi bi-geo-alt"></i><span>Ubicación</span><h3>Isla 132, Neuquén</h3><p>Tte. de Navío Eliana María Krawczyk 685 · Edificio Rivera Urbana</p><b>Ver en el mapa <i class="bi bi-arrow-up-right"></i></b>
           </a>
           <div class="contact-card hours-card">
-            <i class="bi bi-clock"></i><span>Horarios de atención</span><h3>Te esperamos.</h3><p><b>Lunes a viernes</b> · 09:00 a 19:00 hs<br><b>Sábados</b> · 10:00 a 14:00 hs</p>
+            <i class="bi bi-clock"></i><span>Horarios de atención</span><h3>Te esperamos.</h3><p><b>Lunes a viernes</b> · 09:00 a 19:00 hs<br><b>Sábados</b> · 10:00 a 14:00 hs</p><span class="hours-status" aria-live="polite">Consultando horario…</span>
           </div>
           <div class="contact-card contact-action">
             <i class="bi bi-chat-heart"></i><span>¿Tenés una consulta?</span><h3>Hablemos.</h3><p>Escribinos y coordinamos tu turno de la manera más simple.</p><a href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles.">WhatsApp <i class="bi bi-arrow-up-right"></i></a><a class="contact-instagram" href="https://www.instagram.com/dentus.nqn/" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i> Novedades en Instagram</a>
@@ -206,6 +206,27 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    (() => {
+      const status = document.querySelector('.hours-status');
+      if (!status) return;
+      const updateStatus = () => {
+        const parts = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Argentina/Buenos_Aires', weekday: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date());
+        const value = type => parts.find(part => part.type === type)?.value;
+        const day = value('weekday');
+        const time = Number(value('hour')) * 60 + Number(value('minute'));
+        const closesAt = day === 'Sat' ? 14 * 60 : 19 * 60;
+        const opensAt = day === 'Sat' ? 10 * 60 : 9 * 60;
+        const openToday = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].includes(day);
+        const isOpen = openToday && time >= opensAt && time < closesAt;
+        status.textContent = isOpen ? `Abierto ahora · cierra a las ${closesAt / 60}:00 hs` : 'Cerrado ahora';
+        status.classList.toggle('is-open', isOpen);
+        status.classList.toggle('is-closed', !isOpen);
+      };
+      updateStatus();
+      setInterval(updateStatus, 60000);
+    })();
+  </script>
 
 </body>
 </html>
