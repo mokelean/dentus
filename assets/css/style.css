@@ -2079,6 +2079,7 @@ section {
 /* Homepage redesign */
 .dentus-refresh { background: #f8faf9; color: #163a3b; }
 .dentus-refresh #hero.hero-editorial { min-height: 720px; padding: 150px 0 72px; background: #eaf3f1; }
+.dentus-refresh #hero.hero-editorial > .container { position: static; width: auto; max-width: 1140px; padding: 0 12px; border: 0; background: transparent; color: inherit; }
 .dentus-refresh .hero-grid { display: grid; grid-template-columns: 1fr .92fr; align-items: center; gap: 70px; }
 .dentus-refresh .hero-copy { max-width: 590px; }
 .dentus-refresh .hero-copy h1 { margin: 18px 0 25px; color: #123f40; font-size: clamp(3.4rem, 6.5vw, 6.1rem); line-height: .96; letter-spacing: -.075em; font-weight: 600; }
@@ -2114,12 +2115,21 @@ section {
 .dentus-refresh .booking-band .eyebrow { color: #a5e0d9; }
 .dentus-refresh .booking-button { flex: 0 0 auto; padding: 15px 21px; border-radius: 6px; background: #a5e0d9; color: #15494a; font-weight: 700; text-decoration: none; }
 .dentus-refresh .booking-button:hover { background: #fff; color: #15494a; }
+.dentus-refresh .location-map { padding: 25px 0 0; background: #f6faf9; }
+.dentus-refresh .map-shell { position: relative; min-height: 410px; overflow: hidden; border-radius: 18px 18px 0 0; background: #dcebe7; }
+.dentus-refresh .map-shell iframe { width: 100%; height: 410px; border: 0; filter: saturate(.72) contrast(.92); }
+.dentus-refresh .map-card { position: absolute; z-index: 1; top: 42px; left: 42px; width: 335px; padding: 31px; background: #164c4d; color: #fff; box-shadow: 0 20px 45px rgba(12, 58, 59, .24); }
+.dentus-refresh .map-card .eyebrow { color: #a5e0d9; }
+.dentus-refresh .map-card h3 { margin: 14px 0; color: #fff; font-size: 2.05rem; line-height: 1.05; letter-spacing: -.045em; }
+.dentus-refresh .map-card p { color: #d1e4e1; line-height: 1.55; }
+.dentus-refresh .map-card a { display: inline-block; margin-top: 8px; color: #a5e0d9; font-weight: 700; text-decoration: none; border-bottom: 1px solid #7abbb4; padding-bottom: 5px; }
 @media (max-width: 991px) {
   .dentus-refresh #hero.hero-editorial { min-height: auto; padding: 125px 0 65px; }
   .dentus-refresh .hero-grid { grid-template-columns: 1fr; gap: 45px; }
   .dentus-refresh .hero-visual { min-height: 420px; max-width: 620px; }
   .dentus-refresh .hero-visual img { height: 420px; }
   .dentus-refresh .booking-band .container { align-items: flex-start; flex-direction: column; }
+  .dentus-refresh .map-card { left: 25px; top: 25px; }
 }
 @media (max-width: 767px) {
   .dentus-refresh .hero-copy h1 { font-size: 3.3rem; }
@@ -2128,4 +2138,6 @@ section {
   .dentus-refresh .hero-note { left: 16px; bottom: 16px; }
   .dentus-refresh .trust-grid { grid-template-columns: 1fr; margin-top: 46px; }
   .dentus-refresh .intro-panel, .dentus-refresh .services, .dentus-refresh .care-story { padding: 76px 0; }
+  .dentus-refresh .map-shell, .dentus-refresh .map-shell iframe { min-height: 500px; height: 500px; }
+  .dentus-refresh .map-card { top: auto; bottom: 0; left: 0; width: 100%; }
 }

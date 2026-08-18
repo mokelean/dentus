@@ -200,15 +200,22 @@
       </div>
     </div>
 
-    <div class="fullwidth">
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3727.6639096102094!2d-68.05107392405935!3d-38.97709197170716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDU4JzM3LjUiUyA2OMKwMDInNTQuNiJX!5e1!3m2!1ses!2sar!4v1771592957960!5m2!1ses!2sar" 
-        style="width:100%; height:400px; border:0;" 
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </div>
+    <section class="location-map">
+      <div class="container">
+        <div class="map-shell">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3727.6639096102094!2d-68.05107392405935!3d-38.97709197170716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDU4JzM3LjUiUyA2OMKwMDInNTQuNiJX!5e1!3m2!1ses!2sar!4v1771592957960!5m2!1ses!2sar" 
+            title="Ubicación de Dentus en Neuquén"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="map-card">
+            <span class="eyebrow">Estamos cerca</span>
+            <h3>Encontranos en<br>Isla 132.</h3>
+            <p>Tte. de Navío Eliana María Krawczyk 685, Edificio Rivera Urbana.</p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=-38.97709197170716,-68.05107392405935" target="_blank" rel="noopener noreferrer">Cómo llegar <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div class="container py-4 text-center">
       <div class="copyright">
