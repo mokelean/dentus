@@ -48,7 +48,7 @@
           <li><a class="nav-link scrollto" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#hero">Nosotros</a></li>
           <li><a class="nav-link scrollto" href="#especialidades">Ortodoncia</a></li>
-          <li><a class="nav-link" href="dentusito.html">Dentusito</a></li>
+          <li><a class="nav-link dentusito-nav" href="dentusito.html"><i class="bi bi-joystick"></i> Dentusito</a></li>
           <li><a class="nav-link scrollto" href="#footer">Contacto</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
