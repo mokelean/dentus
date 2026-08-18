@@ -156,7 +156,7 @@
     </section>
     <section class="kids-game" id="juego">
       <div class="container">
-        <div class="game-heading"><div><h2>La caries traviesa.</h2><p>Un juego rápido para chicos: mové a la caries y juntá todas las muelas antes de que termine el tiempo.</p></div><span>Para jugar un ratito</span></div>
+        <div class="game-heading"><div><h2>Dentusito.</h2><p>Un juego rápido para chicos: mové a Dentusito y juntá todas las muelas antes de que termine el tiempo.</p></div><span>Para jugar un ratito</span></div>
         <div class="game-shell">
           <canvas id="caries-game" width="680" height="360" tabindex="0" aria-label="Juego de la caries traviesa"></canvas>
           <div class="game-panel"><div class="score-label">Muelas juntadas</div><strong id="game-score">0</strong><p id="game-message">Usá las flechas o WASD para moverte.</p><div class="game-controls" aria-label="Controles del juego"><button type="button" data-move="ArrowUp"><i class="bi bi-arrow-up"></i></button><button type="button" data-move="ArrowLeft"><i class="bi bi-arrow-left"></i></button><button type="button" data-move="ArrowDown"><i class="bi bi-arrow-down"></i></button><button type="button" data-move="ArrowRight"><i class="bi bi-arrow-right"></i></button></div><button id="game-restart" type="button">Jugar de nuevo <i class="bi bi-arrow-clockwise"></i></button></div>

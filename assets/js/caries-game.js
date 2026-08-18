@@ -56,7 +56,7 @@
     });
     if (!teeth.length) {
       completed = true;
-      messageNode.textContent = '¡Ganaste! La caries juntó todas las muelas.';
+      messageNode.textContent = '¡Ganaste! Dentusito juntó todas las muelas.';
     }
   };
 
