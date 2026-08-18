@@ -2250,6 +2250,7 @@ section {
   .dentus-refresh .interceptive-care { grid-template-columns: 1fr; gap: 35px; }
   .dentus-refresh .gallery-heading { align-items: start; flex-direction: column; gap: 14px; }
   .dentus-refresh .game-shell { grid-template-columns: 1fr; }
+  .dentus-refresh.dentusito-page .game-shell { grid-template-columns: 1fr; max-width: 680px; }
   .dentus-refresh .map-card { left: 25px; top: 25px; }
   .dentus-refresh .dentus-map-pin { left: 72%; }
   .dentus-refresh .contact-grid { grid-template-columns: 1fr; }
