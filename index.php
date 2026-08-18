@@ -146,7 +146,7 @@
     </section>
     <section class="clinic-gallery">
       <div class="container">
-        <div class="gallery-heading"><div><h2>Un consultorio pensado para que te sientas bien.</h2></div><div class="gallery-social"><p>Conocé el día a día del consultorio, tratamientos y novedades.</p><a href="https://www.instagram.com/dentus.nqn/" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i> Seguinos en Instagram <i class="bi bi-arrow-up-right"></i></a></div></div>
+        <div class="gallery-heading"><div><h2>Un consultorio pensado para que te sientas bien.</h2></div></div>
         <div class="gallery-grid">
           <figure class="gallery-large"><img src="assets/images/consultorio-ventanales.jpeg" alt="Vista desde el consultorio Dentus"></figure>
           <figure><img src="assets/images/consultorio-sillon.jpeg" alt="Consultorio odontológico Dentus"></figure>
@@ -171,7 +171,7 @@
             <i class="bi bi-clock"></i><span>Horarios de atención</span><h3>Te esperamos.</h3><p><b>Lunes a viernes</b> · 09:00 a 19:00 hs<br><b>Sábados</b> · 10:00 a 14:00 hs</p><span class="hours-status" aria-live="polite">Consultando horario…</span>
           </div>
           <div class="contact-card contact-action">
-            <i class="bi bi-chat-heart"></i><span>¿Tenés una consulta?</span><h3>Hablemos.</h3><p>Escribinos y coordinamos tu turno de la manera más simple.</p><a href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles.">WhatsApp <i class="bi bi-arrow-up-right"></i></a><a class="contact-instagram" href="https://www.instagram.com/dentus.nqn/" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i> Novedades en Instagram</a>
+            <i class="bi bi-chat-heart"></i><span>¿Tenés una consulta?</span><h3>Hablemos.</h3><p>Escribinos y coordinamos tu turno de la manera más simple.</p><a href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles.">WhatsApp <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>

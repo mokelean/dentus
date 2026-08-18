@@ -2151,9 +2151,6 @@ section {
 .dentus-refresh .gallery-heading { display: flex; justify-content: space-between; align-items: end; gap: 40px; margin-bottom: 38px; }
 .dentus-refresh .gallery-heading h2 { max-width: 650px; margin: 12px 0 0; color: #15494a; font-size: clamp(2rem, 4vw, 3.45rem); line-height: 1.05; letter-spacing: -.05em; }
 .dentus-refresh .gallery-heading p { max-width: 325px; margin: 0 0 5px; color: #587574; line-height: 1.65; }
-.dentus-refresh .gallery-social { max-width: 325px; }
-.dentus-refresh .gallery-social a { display: inline-flex; align-items: center; gap: 8px; margin-top: 14px; color: #fff; background: #15494a; padding: 11px 14px; font-size: .9rem; font-weight: 700; text-decoration: none; }
-.dentus-refresh .gallery-social a:hover { background: #267577; color: #fff; }
 .dentus-refresh .gallery-grid { display: grid; grid-template-columns: 1.18fr .82fr .82fr; grid-template-rows: 260px; gap: 16px; }
 .dentus-refresh .gallery-grid figure { margin: 0; overflow: hidden; border-radius: 12px; }
 .dentus-refresh .gallery-grid img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .45s ease; }
@@ -2188,7 +2185,6 @@ section {
 .dentus-refresh .contact-action h3, .dentus-refresh .contact-action p { color: #fff; }
 .dentus-refresh .contact-action > span { color: #a5e0d9; }
 .dentus-refresh .contact-action > a { display: inline-block; margin-top: 5px; color: #164c4d; background: #a5e0d9; padding: 10px 14px; font-size: .9rem; font-weight: 700; text-decoration: none; }
-.dentus-refresh .contact-action .contact-instagram { position: absolute; left: 28px; bottom: 28px; display: inline-flex; align-items: center; gap: 8px; color: #a5e0d9; background: transparent; border-bottom: 1px solid #75aaa5; padding: 0 0 5px; }
 .dentus-refresh .map-shell { position: relative; min-height: 410px; overflow: hidden; border-radius: 18px 18px 0 0; background: #dcebe7; }
 .dentus-refresh .map-shell iframe { width: 100%; height: 410px; border: 0; filter: saturate(.72) contrast(.92); }
 .dentus-refresh .map-card { position: absolute; z-index: 1; top: 42px; left: 42px; width: 335px; padding: 31px; background: #164c4d; color: #fff; box-shadow: 0 20px 45px rgba(12, 58, 59, .24); }
