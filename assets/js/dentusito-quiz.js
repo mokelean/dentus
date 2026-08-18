@@ -1,11 +1,11 @@
 (() => {
   const questions = [
-    { question: '¿Qué trata la Ortodoncia?', options: ['Las malposiciones dentarias y la mordida', 'Solo las caries', 'Únicamente el color de los dientes'], answer: 0, note: '¡Exacto! Busca una oclusión estética, estable y funcional.' },
-    { question: '¿Cuánto tiempo se usan los alineadores invisibles?', options: ['Solo para dormir', '22 horas por día', 'Una vez por semana'], answer: 1, note: '¡Muy bien! Se usan 22 horas por día y se retiran para comer e higienizarse.' },
-    { question: '¿Qué permite hacer un alineador removible?', options: ['Comer y cepillarse con comodidad', 'No ir nunca a controles', 'Cambiar el color de los dientes'], answer: 0, note: '¡Correcto! Poder retirarlo ayuda a mantener una buena higiene oral.' },
-    { question: '¿Qué hace la Ortopedia?', options: ['Guía el crecimiento de maxilares y mordida', 'Reemplaza todas las piezas dentarias', 'Evita cepillarse los dientes'], answer: 0, note: '¡Sí! Aprovecha el crecimiento durante la infancia en el momento indicado.' },
-    { question: '¿Cuál es el primer paso de un tratamiento?', options: ['Comprar un cepillo nuevo', 'Una consulta diagnóstica', 'Elegir el color de los brackets'], answer: 1, note: '¡Exacto! Primero se evalúan crecimiento, mordida y estudios necesarios.' },
-    { question: '¿Cuál es una alternativa de Ortodoncia?', options: ['Brackets metálicos', 'Alineadores invisibles', 'Las dos anteriores'], answer: 2, note: '¡Excelente! Hay varias alternativas y cada caso se planifica de forma individual.' }
+    { question: '¿Quién ayuda a ordenar los dientes y la mordida?', options: ['El ortodoncista', 'El astronauta', 'El panadero'], answer: 0, note: '¡Muy bien! El ortodoncista cuida cómo crecen y se acomodan los dientes.' },
+    { question: '¿Qué son los alineadores invisibles?', options: ['Placas transparentes para los dientes', 'Anteojos para mirar mejor', 'Guantes para jugar'], answer: 0, note: '¡Correcto! Son placas transparentes que ayudan a mover los dientes de a poquito.' },
+    { question: '¿Qué podemos hacer al sacarnos un alineador?', options: ['Comer y cepillarnos los dientes', 'Volar como un pájaro', 'No lavarnos los dientes'], answer: 0, note: '¡Sí! Se sacan para comer y para mantener una sonrisa limpia.' },
+    { question: '¿Para qué sirven algunos aparatos de ortopedia?', options: ['Para guiar el crecimiento de la mordida', 'Para convertir dientes en caramelos', 'Para pintar los dientes de azul'], answer: 0, note: '¡Excelente! Ayudan a guiar el crecimiento de los maxilares en el momento indicado.' },
+    { question: '¿Qué hacemos primero antes de empezar un tratamiento?', options: ['Una consulta para revisar la sonrisa', 'Elegimos un superpoder', 'Comemos muchos dulces'], answer: 0, note: '¡Exacto! Primero el equipo revisa cómo están creciendo los dientes y la mordida.' },
+    { question: '¿Qué ayuda a cuidar nuestra sonrisa todos los días?', options: ['Cepillarnos y usar hilo dental', 'Esconder el cepillo', 'Comer azúcar todo el día'], answer: 0, note: '¡Genial! Una buena higiene ayuda a mantener los dientes fuertes y sanos.' }
   ];
   const stepNode = document.querySelector('#quiz-step');
   const scoreNode = document.querySelector('#quiz-score');
