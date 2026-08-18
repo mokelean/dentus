@@ -52,7 +52,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
-      <a href="dentusito.html" class="dentusito-button"><span>🦷</span><b>Dentusito</b><small>Jugá</small></a>
+      <a href="dentusito.html" class="dentusito-button"><span><img src="assets/images/dentusito-castor.svg" alt=""></span><b>Dentusito</b><small>Jugá</small></a>
       <a href="https://wa.me/5492995467837?text=Hola%2C%20quiero%20consultar%20por%20Ortodoncia%20%2F%20alineadores%20invisibles." class="appointment-btn scrollto">Solicitar turno <i class="bi bi-arrow-up-right"></i></a>
     </div>
   </header>

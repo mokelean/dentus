@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Dentusito, el castor">
+  <circle cx="19" cy="16" r="10" fill="#a86b49"/>
+  <circle cx="18" cy="48" r="10" fill="#a86b49"/>
+  <ellipse cx="32" cy="32" rx="23" ry="22" fill="#89543b"/>
+  <ellipse cx="42" cy="37" rx="15" ry="12" fill="#d9a47b"/>
+  <circle cx="43" cy="26" r="5" fill="#272322"/>
+  <circle cx="41.5" cy="24.5" r="1.4" fill="#fff"/>
+  <circle cx="50" cy="33" r="4" fill="#272322"/>
+  <path d="M43 39c7-4 13-2 15 3v10c-5 3-11 2-15-1z" fill="#fffdf7" stroke="#d8cbbd" stroke-width="1.5"/>
+  <path d="M50.5 40v12" stroke="#d8cbbd" stroke-width="1.5"/>
+  <path d="M13 33c-7 2-10 8-7 14 3 5 8 7 13 5" fill="#6d412f"/>
+</svg>

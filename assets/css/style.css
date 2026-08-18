@@ -722,6 +722,7 @@ section {
 }
 .dentus-refresh .dentusito-button { display: inline-flex; align-items: center; gap: 6px; margin-left: 24px; padding: 7px 11px 7px 8px; border: 2px solid #f2bd45; border-radius: 15px 19px 15px 19px; background: #fff1b8; color: #744c12; box-shadow: 0 4px 0 #f2bd45; font-size: .84rem; line-height: 1; text-decoration: none; transform: rotate(-2deg); transition: transform .2s ease, box-shadow .2s ease; }
 .dentus-refresh .dentusito-button span { display: grid; width: 29px; height: 29px; place-items: center; border-radius: 50%; background: #fff; font-size: 1.05rem; transform: rotate(8deg); }
+.dentus-refresh .dentusito-button span img { width: 28px; height: 28px; display: block; }
 .dentus-refresh .dentusito-button b { font-weight: 800; }
 .dentus-refresh .dentusito-button small { padding: 4px 5px; border-radius: 8px; background: #e87160; color: #fff; font-size: .64rem; font-weight: 800; text-transform: uppercase; }
 .dentus-refresh .dentusito-button:hover { color: #744c12; box-shadow: 0 2px 0 #f2bd45; transform: translateY(2px) rotate(2deg); }
