@@ -153,52 +153,22 @@
   </main>
 
   <footer id="footer">
-    <div class="footer-top">
+    <section class="footer-top contact-showcase">
       <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
-              <h3>Dirección</h3>
-              <p>
-                <strong>Tte. de Navío Eliana María Krawczyk 685</strong><br>
-                Edificio Rivera Urbana, Isla 132<br>
-                Neuquén, Capital
-              </p>
-            </div>
+        <div class="contact-heading"><span class="eyebrow">Todo lo que necesitás para visitarnos</span><h2>Estamos para acompañarte.</h2></div>
+        <div class="contact-grid">
+          <a class="contact-card" href="https://www.google.com/maps/search/?api=1&amp;query=-38.97709197170716,-68.05107392405935" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-geo-alt"></i><span>Ubicación</span><h3>Isla 132, Neuquén</h3><p>Tte. de Navío Eliana María Krawczyk 685 · Edificio Rivera Urbana</p><b>Ver en el mapa <i class="bi bi-arrow-up-right"></i></b>
+          </a>
+          <div class="contact-card hours-card">
+            <i class="bi bi-clock"></i><span>Horarios de atención</span><h3>Te esperamos.</h3><p><b>Lunes a viernes</b> · 09:00 a 19:00 hs<br><b>Sábados</b> · 10:00 a 14:00 hs</p>
           </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
-              <h3>Horarios</h3>
-              <p>
-                <strong>Lunes - Viernes</strong><br>
-                09:00 a 19:00hs
-              </p>
-              <p>
-                <strong>Sábados</strong><br>
-                10:00 a 14:00hs
-              </p>
-            </div>
+          <div class="contact-card contact-action">
+            <i class="bi bi-chat-heart"></i><span>¿Tenés una consulta?</span><h3>Hablemos.</h3><p>Escribinos y coordinamos tu turno de la manera más simple.</p><a href="https://wa.me/5492995467837">WhatsApp <i class="bi bi-arrow-up-right"></i></a><div class="social-links"><a href="https://www.facebook.com/DentusUrquiza/" aria-label="Facebook"><i class="bx bxl-facebook"></i></a><a href="https://www.instagram.com/dentus.nqn/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bx bxl-instagram"></i></a></div>
           </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
-              <h3>Contactos</h3>
-              <p>
-                <strong>WhatsApp:</strong> +54 9 2995 46-7837<br>
-                <strong>Email:</strong> dentusnqn@gmail.com
-              </p>
-              <div class="social-links mt-3">
-                <a href="https://www.facebook.com/DentusUrquiza/" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/dentus.nqn/" class="instagram" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
-    </div>
+    </section>
 
     <section class="location-map">
       <div class="container">
