@@ -2084,7 +2084,7 @@ section {
 .dentus-refresh .hero-copy { max-width: 590px; }
 .dentus-refresh .hero-copy h1 { margin: 18px 0 25px; color: #123f40; font-size: clamp(3.4rem, 6.5vw, 6.1rem); line-height: .96; letter-spacing: -.075em; font-weight: 600; }
 .dentus-refresh .hero-copy h1 em { color: #52bdbf; font-family: Georgia, serif; font-weight: 400; }
-.dentus-refresh .hero-copy p { max-width: 480px; color: #527071; font-size: 1.15rem; line-height: 1.65; }
+.dentus-refresh #hero.hero-editorial .hero-copy p { max-width: 480px; color: #315d5e; font-size: 1.15rem; line-height: 1.65; }
 .dentus-refresh .hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 24px; margin-top: 36px; }
 .dentus-refresh .hero-link, .dentus-refresh .text-link { color: #174f50; font-weight: 600; text-decoration: none; border-bottom: 1px solid #a4cdca; padding-bottom: 5px; }
 .dentus-refresh .hero-visual { position: relative; min-height: 535px; }
