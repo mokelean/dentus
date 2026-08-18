@@ -219,7 +219,7 @@
 
     <div class="container py-4 text-center">
       <div class="copyright">
-        © 2024 - <strong>Dentus Odontología Neuquén</strong>
+        © <?= date('Y') ?> - <strong>Dentus Odontología Neuquén</strong>
       </div>
     </div>
   </footer>
