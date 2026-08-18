@@ -96,24 +96,21 @@
     <section id="especialidades" class="services">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Ortodoncia pensada para tu sonrisa.</h2>
-          <p>Te acompañamos desde el diagnóstico hasta el seguimiento, con un plan claro para vos.</p>
+          <h2>Ortodoncia con alineadores invisibles.</h2>
+          <p>Una forma estética, cómoda y personalizada de transformar tu sonrisa.</p>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><img src="assets/images/icon-ortodoncia.webp" alt=""></div>
-            <h4 class="title">Diagnóstico y planificación</h4>
-            <p class="description">Empezamos con una evaluación completa para definir el tratamiento indicado para vos.</p>
+        <div class="aligner-feature">
+          <div class="aligner-copy">
+            <p class="aligner-lead">Contamos con tecnología digital y un equipo de expertos para diseñar alineadores personalizados, para vos y para tus hijos.</p>
+            <h3>¿Cómo funciona?</h3>
+            <p>Es un tratamiento de ortodoncia y ortopedia con placas completamente transparentes. Se diseñan para realizar movimientos graduales, lograr la posición deseada de los dientes y, en niños y niñas, guiar y redireccionar el crecimiento.</p>
+            <a href="https://wa.me/5492995467837" class="text-link">Quiero saber más <i class="bi bi-arrow-up-right"></i></a>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><img src="assets/images/icon-ortodoncia.webp" alt=""></div>
-            <h4 class="title">Alineadores transparentes</h4>
-            <p class="description">Una alternativa discreta y práctica para alinear tu sonrisa en el día a día.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><img src="assets/images/icon-ortodoncia.webp" alt=""></div>
-            <h4 class="title">Brackets y seguimiento</h4>
-            <p class="description">Controles cercanos para avanzar con comodidad y cuidar cada detalle del proceso.</p>
+          <div class="aligner-image"><img src="assets/images/ortodoncia-alineadores.jpeg" alt="Alineador invisible personalizado"><span>Diseñados para vos.</span></div>
+          <div class="aligner-benefits">
+            <div><i class="bi bi-clock"></i><strong>22 horas al día</strong><span>Se usan durante el día y la noche.</span></div>
+            <div><i class="bi bi-arrow-repeat"></i><strong>Cambio cada 2–3 semanas</strong><span>Avanzamos paso a paso según tu plan.</span></div>
+            <div><i class="bi bi-heart"></i><strong>Removibles y cómodos</strong><span>Comé tranquilo y mantené tu higiene oral.</span></div>
           </div>
         </div>
       </div>
