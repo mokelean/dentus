@@ -2075,3 +2075,57 @@ section {
   text-align: center;
   font-size: 13px;
 }
+
+/* Homepage redesign */
+.dentus-refresh { background: #f8faf9; color: #163a3b; }
+.dentus-refresh #hero.hero-editorial { min-height: 720px; padding: 150px 0 72px; background: #eaf3f1; }
+.dentus-refresh .hero-grid { display: grid; grid-template-columns: 1fr .92fr; align-items: center; gap: 70px; }
+.dentus-refresh .hero-copy { max-width: 590px; }
+.dentus-refresh .hero-copy h1 { margin: 18px 0 25px; color: #123f40; font-size: clamp(3.4rem, 6.5vw, 6.1rem); line-height: .96; letter-spacing: -.075em; font-weight: 600; }
+.dentus-refresh .hero-copy h1 em { color: #52bdbf; font-family: Georgia, serif; font-weight: 400; }
+.dentus-refresh .hero-copy p { max-width: 480px; color: #527071; font-size: 1.15rem; line-height: 1.65; }
+.dentus-refresh .hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 24px; margin-top: 36px; }
+.dentus-refresh .hero-link, .dentus-refresh .text-link { color: #174f50; font-weight: 600; text-decoration: none; border-bottom: 1px solid #a4cdca; padding-bottom: 5px; }
+.dentus-refresh .hero-visual { position: relative; min-height: 535px; }
+.dentus-refresh .hero-visual img { width: 100%; height: 535px; display: block; object-fit: cover; border-radius: 170px 170px 18px 18px; box-shadow: 20px 22px 0 #d0e4df; }
+.dentus-refresh .hero-note { position: absolute; left: -42px; bottom: 48px; display: flex; gap: 12px; align-items: center; padding: 17px 21px; background: #fff; border-radius: 10px; box-shadow: 0 15px 35px rgba(23, 79, 80, .15); color: #174f50; line-height: 1.2; }
+.dentus-refresh .hero-note i { color: #52bdbf; font-size: 1.5rem; }
+.dentus-refresh .intro-panel { padding: 106px 0 64px; background: #fff; }
+.dentus-refresh .intro-panel h2, .dentus-refresh .care-copy h2 { margin: 14px 0 0; font-size: clamp(2.2rem, 4vw, 3.8rem); line-height: 1.08; letter-spacing: -.045em; color: #153c3e; }
+.dentus-refresh .intro-panel p, .dentus-refresh .care-copy p { color: #587475; font-size: 1.1rem; line-height: 1.75; }
+.dentus-refresh .trust-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 70px; background: #d7e8e4; border: 1px solid #d7e8e4; }
+.dentus-refresh .trust-grid div { min-height: 120px; padding: 27px 30px; background: #f4f9f8; }
+.dentus-refresh .trust-grid strong, .dentus-refresh .trust-grid span { display: block; }
+.dentus-refresh .trust-grid strong { color: #174f50; font-size: 1.05rem; }
+.dentus-refresh .trust-grid span { margin-top: 7px; color: #78908f; }
+.dentus-refresh .services { padding: 110px 0; background: #eff7f5; }
+.dentus-refresh .services .row { row-gap: 22px; }
+.dentus-refresh .services .icon-box { height: 100%; margin: 0; padding: 34px 28px; border: 1px solid #d6e8e4; border-radius: 14px; background: #fff; box-shadow: none; }
+.dentus-refresh .services .icon-box:hover { transform: translateY(-7px); box-shadow: 0 18px 32px rgba(24, 72, 71, .1); }
+.dentus-refresh .care-story { padding: 120px 0; background: #fff; }
+.dentus-refresh .care-image { position: relative; }
+.dentus-refresh .care-image::before { content: ''; position: absolute; width: 72%; height: 58%; left: -25px; bottom: -25px; border: 1px solid #9bcfca; z-index: 0; }
+.dentus-refresh .care-image img { position: relative; z-index: 1; width: 100%; min-height: 430px; object-fit: cover; border-radius: 14px; }
+.dentus-refresh .care-copy ul { padding: 8px 0 0; list-style: none; color: #305b5b; line-height: 2.2; }
+.dentus-refresh .care-copy li i { color: #52bdbf; font-weight: 700; margin-right: 8px; }
+.dentus-refresh .booking-band { padding: 75px 0; background: #164c4d; color: #fff; }
+.dentus-refresh .booking-band .container { display: flex; justify-content: space-between; align-items: center; gap: 30px; }
+.dentus-refresh .booking-band h2 { max-width: 680px; margin: 13px 0 0; color: #fff; font-size: clamp(2rem, 3.5vw, 3.4rem); letter-spacing: -.045em; line-height: 1.05; }
+.dentus-refresh .booking-band .eyebrow { color: #a5e0d9; }
+.dentus-refresh .booking-button { flex: 0 0 auto; padding: 15px 21px; border-radius: 6px; background: #a5e0d9; color: #15494a; font-weight: 700; text-decoration: none; }
+.dentus-refresh .booking-button:hover { background: #fff; color: #15494a; }
+@media (max-width: 991px) {
+  .dentus-refresh #hero.hero-editorial { min-height: auto; padding: 125px 0 65px; }
+  .dentus-refresh .hero-grid { grid-template-columns: 1fr; gap: 45px; }
+  .dentus-refresh .hero-visual { min-height: 420px; max-width: 620px; }
+  .dentus-refresh .hero-visual img { height: 420px; }
+  .dentus-refresh .booking-band .container { align-items: flex-start; flex-direction: column; }
+}
+@media (max-width: 767px) {
+  .dentus-refresh .hero-copy h1 { font-size: 3.3rem; }
+  .dentus-refresh .hero-visual, .dentus-refresh .hero-visual img { min-height: 350px; height: 350px; }
+  .dentus-refresh .hero-visual img { border-radius: 100px 100px 12px 12px; }
+  .dentus-refresh .hero-note { left: 16px; bottom: 16px; }
+  .dentus-refresh .trust-grid { grid-template-columns: 1fr; margin-top: 46px; }
+  .dentus-refresh .intro-panel, .dentus-refresh .services, .dentus-refresh .care-story { padding: 76px 0; }
+}

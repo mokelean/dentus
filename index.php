@@ -53,52 +53,51 @@
     </div>
   </header>
 
-  <section id="hero">
-    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-      <div class="carousel-inner" role="listbox">
-
-        <div class="carousel-item active" style="background-image: url('assets/images/foto 1 dentus consultorio en villa urquiza bioseguridad dentista consultorio.webp')">
-          <div class="container right hero-card">
-            <small>Odontología integral en Neuquén</small>
-            <h2>Tu sonrisa, <span>en buenas manos.</span></h2>
-            <p>Un equipo cercano, tratamientos personalizados y la tranquilidad de sentirte acompañado desde la primera consulta.</p>
-            <a class="btn-get-started" href="https://wa.me/5492995467837">Reservar una consulta <i class="bi bi-arrow-up-right"></i></a>
+  <section id="hero" class="hero-editorial">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Odontología integral · Neuquén</span>
+          <h1>Una nueva forma de <em>cuidar</em> tu sonrisa.</h1>
+          <p>Tratamientos personalizados, profesionales cerca tuyo y un espacio pensado para que cada visita se sienta simple.</p>
+          <div class="hero-actions">
+            <a class="btn-get-started" href="https://wa.me/5492995467837">Solicitar un turno <i class="bi bi-arrow-up-right"></i></a>
+            <a class="hero-link" href="#especialidades">Ver tratamientos <i class="bi bi-arrow-down"></i></a>
           </div>
         </div>
-
-        <div class="carousel-item" style="background-image: url('assets/images/foto 2 dentus consultorio en villa urquiza bioseguridad dentista.png')">
-          <div class="container right hero-card">
-            <small>Una atención segura</small>
-            <h2>Cuidamos cada <span>detalle.</span></h2>
-            <p>Protocolos de bioseguridad, tecnología y profesionales que priorizan tu bienestar en cada etapa.</p>
-          </div>
+        <div class="hero-visual">
+          <img src="assets/images/foto 1 dentus consultorio en villa urquiza bioseguridad dentista consultorio.webp" alt="Recepción de Dentus">
+          <div class="hero-note"><i class="bi bi-heart-pulse"></i><span>Tu bienestar<br>es el centro.</span></div>
         </div>
-
-        <div class="carousel-item" style="background-image: url('assets/images/foto 3 dentus consultorio en villa urquiza bioseguridad dentista consultorio.webp')">
-          <div class="container left hero-card">
-            <small>Tu tiempo importa</small>
-            <h2>Atención cercana, <span>sin esperas.</span></h2>
-            <p>Organizamos cada visita para que puedas cuidar tu salud dental con comodidad y confianza.</p>
-          </div>
-        </div>
-
       </div>
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-      </a>
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
     </div>
   </section>
 
   <main id="main">
+    <section class="intro-panel">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <span class="eyebrow">Dentus · Neuquén</span>
+            <h2>Odontología pensada para que vuelvas a sonreír con confianza.</h2>
+          </div>
+          <div class="col-lg-5 offset-lg-1">
+            <p>Un espacio contemporáneo, atención profesional y tratamientos personalizados para cada etapa de tu salud bucal.</p>
+            <a href="https://wa.me/5492995467837" class="text-link">Hablar por WhatsApp <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="trust-grid">
+          <div><strong>Atención integral</strong><span>Diagnóstico y seguimiento</span></div>
+          <div><strong>Equipo profesional</strong><span>Una mirada cercana</span></div>
+          <div><strong>Turnos ágiles</strong><span>Respetamos tu tiempo</span></div>
+        </div>
+      </div>
+    </section>
     <section id="especialidades" class="services">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <span class="eyebrow">Tratamientos pensados para vos</span>
-          <h2>Una atención integral para cada sonrisa</h2>
+          <h2>Tratamientos que acompañan cada etapa de tu sonrisa</h2>
           <p>Combinamos diagnóstico, planificación y seguimiento para cuidar tu salud bucal a largo plazo.</p>
         </div>
         <div class="row">
@@ -134,6 +133,22 @@
           </div>
         </div>
       </div>
+    </section>
+    <section class="care-story">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5"><div class="care-image"><img src="assets/images/foto 2 dentus consultorio en villa urquiza bioseguridad dentista.png" alt="Espacio de atención Dentus"></div></div>
+          <div class="col-lg-6 offset-lg-1 care-copy">
+            <span class="eyebrow">Una consulta diferente</span>
+            <h2>Escuchar primero. Indicar después.</h2>
+            <p>Cada tratamiento empieza con una conversación clara. Te explicamos las alternativas, planificamos juntos y acompañamos el proceso para que tomes decisiones con tranquilidad.</p>
+            <ul><li><i class="bi bi-check2"></i> Planes de tratamiento personalizados</li><li><i class="bi bi-check2"></i> Tecnología y bioseguridad en cada consulta</li><li><i class="bi bi-check2"></i> Atención cálida en un entorno cómodo</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="booking-band">
+      <div class="container"><div><span class="eyebrow">¿Listo para empezar?</span><h2>Tu próxima sonrisa empieza con una consulta.</h2></div><a href="https://wa.me/5492995467837" class="booking-button">Escribir por WhatsApp <i class="bi bi-arrow-up-right"></i></a></div>
     </section>
   </main>
 
