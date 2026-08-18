@@ -720,9 +720,11 @@ section {
   font-weight: 700;
   letter-spacing: 0.06em;
 }
-.dentus-refresh .navbar a.dentusito-nav, .dentus-refresh .navbar a.dentusito-nav:focus { gap: 5px; margin-left: 21px; padding: 8px 12px; border-radius: 20px; background: #fff0b9; color: #6b5411; font-size: .82rem; font-weight: 800; letter-spacing: .01em; text-transform: none; }
-.dentus-refresh .navbar a.dentusito-nav i { color: #d66d33; font-size: 1rem; margin: 0; }
-.dentus-refresh .navbar a.dentusito-nav:hover { background: #ffe58c; color: #6b5411; transform: rotate(-2deg); }
+.dentus-refresh .dentusito-button { display: inline-flex; align-items: center; gap: 6px; margin-left: 24px; padding: 7px 11px 7px 8px; border: 2px solid #f2bd45; border-radius: 15px 19px 15px 19px; background: #fff1b8; color: #744c12; box-shadow: 0 4px 0 #f2bd45; font-size: .84rem; line-height: 1; text-decoration: none; transform: rotate(-2deg); transition: transform .2s ease, box-shadow .2s ease; }
+.dentus-refresh .dentusito-button span { display: grid; width: 29px; height: 29px; place-items: center; border-radius: 50%; background: #fff; font-size: 1.05rem; transform: rotate(8deg); }
+.dentus-refresh .dentusito-button b { font-weight: 800; }
+.dentus-refresh .dentusito-button small { padding: 4px 5px; border-radius: 8px; background: #e87160; color: #fff; font-size: .64rem; font-weight: 800; text-transform: uppercase; }
+.dentus-refresh .dentusito-button:hover { color: #744c12; box-shadow: 0 2px 0 #f2bd45; transform: translateY(2px) rotate(2deg); }
 
 .dentus-refresh .appointment-btn {
   display: inline-flex;
@@ -908,6 +910,7 @@ section {
   .dentus-refresh .appointment-btn {
     display: none;
   }
+  .dentus-refresh .dentusito-button { margin-left: auto; margin-right: 16px; }
 
   .dentus-refresh section {
     padding: 76px 0;
@@ -2237,6 +2240,8 @@ section {
 }
 @media (max-width: 767px) {
   .dentus-refresh .hero-copy h1 { font-size: 3.3rem; }
+  .dentus-refresh .dentusito-button { margin-right: 10px; padding: 6px 8px; }
+  .dentus-refresh .dentusito-button b { display: none; }
   .dentus-refresh .hero-visual, .dentus-refresh .hero-visual img { min-height: 350px; height: 350px; }
   .dentus-refresh .hero-visual img { border-radius: 100px 100px 12px 12px; }
   .dentus-refresh .hero-note { left: 16px; bottom: 16px; }
