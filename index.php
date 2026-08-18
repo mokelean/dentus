@@ -44,7 +44,7 @@
         <ul>
           <li><a class="nav-link scrollto" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#hero">Nosotros</a></li>
-          <li><a class="nav-link scrollto" href="#especialidades">Especialidades</a></li>
+          <li><a class="nav-link scrollto" href="#especialidades">Ortodoncia</a></li>
           <li><a class="nav-link scrollto" href="#footer">Contacto</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -96,40 +96,24 @@
     <section id="especialidades" class="services">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <span class="eyebrow">Tratamientos pensados para vos</span>
-          <h2>Tratamientos que acompañan cada etapa de tu sonrisa</h2>
-          <p>Combinamos diagnóstico, planificación y seguimiento para cuidar tu salud bucal a largo plazo.</p>
+          <h2>Ortodoncia pensada para tu sonrisa.</h2>
+          <p>Te acompañamos desde el diagnóstico hasta el seguimiento, con un plan claro para vos.</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon"><img src="assets/images/icon-ortodoncia.webp" alt=""></div>
-            <h4 class="title">Ortodoncia</h4>
-            <p class="description">Tratamos malposiciones dentarias para lograr una oclusión estética y funcional.</p>
+            <h4 class="title">Diagnóstico y planificación</h4>
+            <p class="description">Empezamos con una evaluación completa para definir el tratamiento indicado para vos.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><img src="assets/images/icon-implante.webp" alt=""></div>
-            <h4 class="title">Implantes</h4>
-            <p class="description">Pieza artificial de titanio para sustituir una raíz dentaria perdida.</p>
+            <div class="icon"><img src="assets/images/icon-ortodoncia.webp" alt=""></div>
+            <h4 class="title">Alineadores transparentes</h4>
+            <p class="description">Una alternativa discreta y práctica para alinear tu sonrisa en el día a día.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><img src="assets/images/icon-estetica.webp" alt=""></div>
-            <h4 class="title">Estética dental</h4>
-            <p class="description">Diseño de sonrisa basado en diagnóstico y expectativas del paciente.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><img src="assets/images/icon-blanqueamiento.webp" alt=""></div>
-            <h4 class="title">Blanqueamiento</h4>
-            <p class="description">Recupera el tono blanco de tus dientes eliminando manchas externas e internas.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><img src="assets/images/icon-protesis.webp" alt=""></div>
-            <h4 class="title">Prótesis</h4>
-            <p class="description">Prótesis fijas y removibles para pacientes con ausencias dentarias.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><img src="assets/images/icon-endodoncia.webp" alt=""></div>
-            <h4 class="title">Endodoncia</h4>
-            <p class="description">Tratamiento de conducto para salvar piezas dentarias con infección o trauma.</p>
+            <div class="icon"><img src="assets/images/icon-ortodoncia.webp" alt=""></div>
+            <h4 class="title">Brackets y seguimiento</h4>
+            <p class="description">Controles cercanos para avanzar con comodidad y cuidar cada detalle del proceso.</p>
           </div>
         </div>
       </div>
