@@ -84,23 +84,27 @@
     nextButton.disabled = true;
     nextButton.innerHTML = index === questions.length - 1 ? 'Ver resultado <i class="bi bi-arrow-right"></i>' : 'Siguiente <i class="bi bi-arrow-right"></i>';
     optionsNode.innerHTML = '';
-    item.options.forEach((option, optionIndex) => {
+    const choices = item.options
+      .map((option, optionIndex) => ({ option, correct: optionIndex === item.answer }))
+      .sort(() => Math.random() - 0.5);
+    choices.forEach((choice) => {
       const button = document.createElement('button');
       button.type = 'button';
-      button.textContent = option;
-      button.addEventListener('click', () => answer(optionIndex, button));
+      button.textContent = choice.option;
+      button.dataset.correct = String(choice.correct);
+      button.addEventListener('click', () => answer(choice.correct, button));
       optionsNode.append(button);
     });
   };
 
-  const answer = (choice, selected) => {
+  const answer = (choiceIsCorrect, selected) => {
     if (answered) return;
     answered = true;
     const item = questions[index];
-    const correct = choice === item.answer;
-    [...optionsNode.children].forEach((button, optionIndex) => {
+    const correct = choiceIsCorrect;
+    [...optionsNode.children].forEach((button) => {
       button.disabled = true;
-      if (optionIndex === item.answer) button.classList.add('is-correct');
+      if (button.dataset.correct === 'true') button.classList.add('is-correct');
     });
     if (!correct) selected.classList.add('is-wrong');
     if (correct) score += 1;
